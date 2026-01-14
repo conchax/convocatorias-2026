@@ -22,6 +22,18 @@ h2{
     color: var(--color-title);
     text-align: center;
 }
+h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+b{
+    font-weight: 700;
+}
 .btn-recursos{
     background-color: transparent;
     border: 1px solid var(--color-primary);
@@ -52,6 +64,71 @@ h2{
     font-size: 18px;
     text-decoration: none;
 }
+.btn-detalle{
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 8px;
+    font-size: 18px;
+}
+.btn-labeled:hover {
+    border: 2px solid var(--color-secun);
+    color: var(--color-secun);
+    transition: all .4s ease-out;
+}
+.btn-label {
+    position: relative;
+    background-color: var(--color-primary);
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px 0 0 5px;
+    left: -12px;
+}
+
+.btn-labeled .icono {
+    transition: all .4s ease-out;
+}
+.btn-labeled:hover .icono {
+    transform: rotateY(360deg);
+}
+.btn-labeled:hover .btn-label {
+    background-color: var(--color-secun);
+    transition: all .4s ease-out;
+}
+.text-bottom {
+    display: inline-block;
+    margin: 0 20px;
+    width: 220px;
+}
+.btn-difunde{
+    border: 1px solid var(--color-primary);
+    border-radius: 7px;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+}
+.btn-difunde:hover{
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    transition: all .4s ease-out;
+    color: var(--bg-fondo);
+}
+.btn-difundet{
+    border: 2px solid var(--color-primary)!important;
+}
+.btn-difundet:hover{
+    border: 2px solid var(--color-primary)!important;
+}
 .cta{
     background-color: #F6F6F6;
     padding: 40px 0;
@@ -66,4 +143,26 @@ h2{
     font-size: 35px;
     font-weight: 300;
 
+}
+
+.line{
+    color: var(--color-primary);
+    opacity: 1;
+}
+
+.rec{
+    border: 1px solid var(--color-primary);
+    border-radius: 7px;
+    padding: 15px 10px;
+}
+
+.txt-copis{
+    font-size: 18px;
+    font-weight: 500;
+}
+.link{
+    color: #327FA6;
+}
+.link:hover{
+    color: var(--color-secun);
 }

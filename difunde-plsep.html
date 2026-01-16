@@ -14,6 +14,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- tour -->
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
+
   <link href="assets/css/c26.css" rel="stylesheet">
   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet">
   </head>
@@ -47,7 +51,7 @@
           <hr class="line my-5">
         </div>
         <div class="col-12 text-center">
-            <p class="tex-date ">Periodo de registro del <b>23 de febrero al 4 de marzo</b></p>
+            <p class="tex-date highlight">Periodo de registro del <b>23 de febrero al 4 de marzo</b></p>
         </div>
       </div>
          
@@ -89,8 +93,9 @@
             <div class="col-md-6">
                 <div class="rec text-center mb-3">
                     <p><b>Video Spot</b></p>
+                    <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
                     <p>
-                        <a href="#" class="btn-detalle">
+                        <a type="button" class="btn-detalle" id="buttonVideospot">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar enlace
@@ -99,11 +104,9 @@
                 </div>
                 <div class="rec text-center">
                     <p><b>Hashtags</b></p>
-                    <p class="txt-copis">
-                        #Convocatorias2026PLSEP<br>#DifundePLSEP
-                    </p>
+                    <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br>#DifundePLSEP</p>
                     <p>
-                        <a href="#" class="btn-detalle">
+                        <a type="button" class="btn-detalle" id="buttonhastag">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar enlace
@@ -115,17 +118,20 @@
                  <div class="rec text-center">
                     <p><b>Copy sugerido</b></p>
                     <ol class="txt-copis">
-                        <li>¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a><br> <a href="#" class="btn-detalle">
+                        <li><span id="copy">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
+                        <a type="button" id="buttoncopy" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
-                        <li>¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a><br> <a href="#" class="btn-detalle">
+                        <li><span id="copyd">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> dos</span><br> 
+                        <a type="button" id="buttoncopyd" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
-                        <li>¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2025</a><br> <a href="#" class="btn-detalle">
+                        <li><span id="copyt">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> tres</span><br> 
+                        <a type="button" id="buttoncopyt" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
@@ -279,12 +285,12 @@
     </section>
     <!-- Logos -->
     <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
-  <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script>
-  <!-- scrpt necesario para cagar el contenido del header y fooer -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script>
+    <!-- scrpt necesario para cagar el contenido del header y fooer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).on('ready', function() {
@@ -326,5 +332,239 @@
             });
         });
     </script>
+
+        <!--    copiar enlace -->
+    <script>
+        const button = document.getElementById("buttonVideospot");
+        const quote = document.getElementById("videospot");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        button.addEventListener("click", () => {
+            copyToClipboard(quote.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisoone {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisoone");
+            var contenidoc = document.createTextNode("Enlace copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisoone)", 1000)
+        });
+    </script>
+    
+    <!-- copiar hashtags -->
+    <script>
+        const buttonhastag = document.getElementById("buttonhastag");
+        const elmhastag = document.getElementById("hastag");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttonhastag.addEventListener("click", () => {
+            copyToClipboard(elmhastag.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotrhee {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotrhee");
+            var contenidoc = document.createTextNode("Hashtags copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotrhee)", 1000)
+        });
+    </script>
+
+    <!-- copiar copy -->
+    <script>
+        const buttoncopy = document.getElementById("buttoncopy");
+        const elmcopy = document.getElementById("copy");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttoncopy.addEventListener("click", () => {
+            copyToClipboard(elmcopy.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotwo");
+            var contenidoc = document.createTextNode("Copy sugerido copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+        });
+    </script>
+
+    <script>
+        const buttoncopyd = document.getElementById("buttoncopyd");
+        const elmcopyd = document.getElementById("copyd");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttoncopyd.addEventListener("click", () => {
+            copyToClipboard(elmcopyd.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotwo");
+            var contenidoc = document.createTextNode("Copy sugerido copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+        });
+    </script>
+
+    <script>
+        const buttoncopyt = document.getElementById("buttoncopyt");
+        const elmcopyt = document.getElementById("copyt");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttoncopyt.addEventListener("click", () => {
+            copyToClipboard(elmcopyt.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotwo");
+            var contenidoc = document.createTextNode("Copy sugerido copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+        });
+    </script>
+
+    <!-- tour -->
+     <script>
+        const driver = window.driver.js.driver;
+
+const driverObj = driver();
+
+driverObj.highlight({
+  element: "#some-element",
+  popover: {
+    title: "Title",
+    description: "Description"
+  }
+});
+     </script>
+
   </body>
 </html>

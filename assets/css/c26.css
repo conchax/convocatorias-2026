@@ -1,8 +1,9 @@
 :root{
-    --color-primary: #9DA73D;
+    --color-primary: #9da73d;
     --color-secun: #919191;
     --color-title: #3E3D4C;
     --color-text:#5B5B5B;
+    --color-text-secu:#ffffff;
     --bg-fondo:#ffffff;
 }
 body{
@@ -43,31 +44,64 @@ b{
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
+    transition: all .4s ease-out;
 }
-.btn-cta{
+.btn-recursos:hover{
+    transition: all .4s ease-out;
     background-color: var(--color-primary);
-    border-radius: 13px;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 700;
-    padding: 10px 30px;
-    text-decoration: none;
+    color: var(--color-text-secu);
+    font-size: 17px;
 }
+
 .btn-cta-popup{
     color: var(--color-primary);
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    transition: all .5s ease-out;
+}
+.btn-cta-popup svg{
+    transition: all .5s ease-out;
+}
+.btn-cta-popup:hover{
+    font-size: 20px;
+    transition: all .5s ease-out;
+}
+.btn-cta-popup:hover svg{
+    transform: rotateY(360deg);
+    scale: 1.4;
 }
 .btn-play{
     color: var(--color-secun);
     font-size: 18px;
     text-decoration: none;
+    transition: all .4s ease-out;
+}
+.btn-play .icono{
+    transition: all .4s ease-out;
+}
+.btn-play:hover{
+ transition: all .4s ease-out;
+}
+.btn-play:hover .icono{
+    transform: rotate(360deg);
 }
 .btn-detalle{
     color: var(--color-primary);
     font-size: 18px;
     font-weight: 500;
+}
+.btn-detalle svg{
+    transition: all .4s ease-out;
+    fill: var(--color-primary);
+}
+.btn-detalle:hover svg{
+    scale: 1.2;
+    fill: var(--color-title);
+    color: var(--color-title);
+}
+.btn-detalle:hover{
+    color: var(--color-title);
 }
 .btn-labeled {
     padding-top: 0;
@@ -121,7 +155,7 @@ b{
     border: 1px solid var(--color-primary);
     background-color: var(--color-primary);
     transition: all .4s ease-out;
-    color: var(--bg-fondo);
+    color: var(--color-text-secu);
 }
 .btn-difundet{
     border: 2px solid var(--color-primary)!important;
@@ -130,10 +164,25 @@ b{
     border: 2px solid var(--color-primary)!important;
 }
 .cta{
-    background-color: #F6F6F6;
     padding: 40px 0;
     margin: 40px 0;
+    background: linear-gradient(-45deg, #ffffff,#F6F6F6,#dddddd,#cccccc);
+	background-size: 400% 400%;
+	animation: gradientBG 10s ease infinite;
 }
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .tex-convo{
     font-size: 50px;
     color: var(--color-primary);
@@ -165,4 +214,102 @@ b{
 }
 .link:hover{
     color: var(--color-secun);
+}
+
+/* From Uiverse.io by mrhyddenn */ 
+.btn-r {
+    margin: 5em 0;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid var(--color-primary);
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: var(--color-primary);
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.btn-r:hover {
+  background:var(--color-primary);
+  box-shadow: 0 0 30px 5px rgba(157, 167, 61, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btn-r:hover::before {
+  -webkit-animation: sh02 0.3s 0s linear;
+  -moz-animation: sh02 0.3s 0s linear;
+  animation: sh02 0.3s 0s linear;
+}
+
+.btn-r::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 30%;
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 20px 20px rgb(255, 255, 255, 0.3);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.btn-r:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+
+
+.modal-header{
+    border-bottom: none;
+    padding: .3em;
+}
+.modal-content{
+    color: var(--color-text);
+}
+.title-modal{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+.title-modal span{
+    font-size: 100px;
+    color: #67A92F;
+    font-weight: 700;
+    line-height: 90px;
+    border-left: 4px solid #67A92F;
+    padding: 0 10px;
+    margin-left: 10px;
 }

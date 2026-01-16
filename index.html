@@ -50,7 +50,7 @@
         <div class="col-md-7 text-center">
           <p class="tex-convo mb-4"> Generación 86</p>
           <p class="tex-date ">del 23 de febrero al 4 de marzo</p>
-          <p class="my-5"><a href="#" class="btn-cta">Registrate aquí</a></p>
+          <p class="my-5"><a href="#" class="btn-r">Registrate aquí</a></p>          
         </div>
       </div>
       <div class="row justify-content-center">
@@ -79,13 +79,13 @@
       <div class="row justify-content-center mb-4">
         <div class="col-md-3">
           <a href="#" class="btn-play">
-            <svg width="28" height="28">
+            <svg class="icono" width="28" height="28">
 							<use xlink:href="/assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo descargo mi CURP?</a>
         </div>
         <div class="col-md-4">
           <a href="#" class="btn-play">
-            <svg width="28" height="28">
+            <svg class="icono" width="28" height="28">
 							<use xlink:href="/assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo descargo mi acta de nacimiento?</a>
         </div>
@@ -107,7 +107,7 @@
         <div class="col-md-3 text-center">
           <p><img src="assets/img/i83.png" alt="generación 83"></p>
           <p>
-            <a href="#" class="btn-detalle">
+            <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoA">
             <svg width="16" height="12" class="me-2">
 							<use xlink:href="/assets/img/sprite.svg#icono-proceso"></use>
 						</svg>Ver proceso
@@ -198,6 +198,50 @@
   </section>
 
   <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
+
+
+
+    <!-- Modal sigueprocesoA -->
+    <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10">
+                                <p class="title-modal d-flex align-items-center mb-4">Generación <span>83</span></p>
+
+                                <ul class="timeline text-center">
+                                    <li>
+                                        <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" >Obtén tus claves de acceso</a>
+                                        <p>del 31 de octubre<br>al 2 de noviembre</p>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" >Cursa el módulo propedéutico</a>
+                                        <p>del 3 al 12 de noviembre
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank">Consulta tus resultados e inscríbete</a>
+                                        <p>del 14 al 19 de noviembre</p>
+                                    </li>
+                                    <li class="last enproceso">
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" >Cursa el módulo 1</a>
+                                        <p>del 24 de noviembre <br>al 21 de diciembre <span style="color: transparent;">.</span> </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script>
   <!-- scrpt necesario para cagar el contenido del header y fooer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

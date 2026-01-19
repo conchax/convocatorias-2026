@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Difunde PL-SEP</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300..700;1,300..700&display=swap"
     rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -18,8 +18,8 @@
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
 
-  <link href="assets/css/c26.css" rel="stylesheet">
-  <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet">
+    <link href="assets/css/c26.css" rel="stylesheet">
+    <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet">
   </head>
   <body>
     <div id="headerPLS"></div> <!-- etiqueta para q se visualice el header -->
@@ -62,36 +62,36 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <a href="#" class="btn btn-difunde">Bases</a>
+                <a href="#" class="btn btn-difunde uno">Bases</a>
             </div>
             <div class="col-md-4">
-                <a href="#" class="btn btn-difunde">Infografía</a>
+                <a href="#" class="btn btn-difunde dos">Infografía</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Guía del aspirante</a>
+                <a href="#" class="btn btn-difunde tres">Guía del aspirante</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Cartel</a>
+                <a href="#" class="btn btn-difunde cuatro">Cartel</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Mail</a>
+                <a href="#" class="btn btn-difunde cinco">Mail</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Banner para portal</a>
+                <a href="#" class="btn btn-difunde seis">Banner para portal</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Boletín</a>
+                <a href="#" class="btn btn-difunde siete">Boletín</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde">Brochure PL-SEP</a>
+                <a href="#" class="btn btn-difunde ocho">Brochure PL-SEP</a>
             </div>
             <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde btn-difundet">Descargar todo</a>
+                <a href="#" class="btn btn-difunde btn-difundet nueve">Descargar todo</a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="rec text-center mb-3">
+                <div class="rec r-uno text-center mb-3">
                     <p><b>Video Spot</b></p>
                     <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
                     <p>
@@ -102,7 +102,7 @@
                         </a>
                     </p>
                 </div>
-                <div class="rec text-center">
+                <div class="rec r-dos text-center">
                     <p><b>Hashtags</b></p>
                     <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br>#DifundePLSEP</p>
                     <p>
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                 <div class="rec text-center">
+                 <div class="rec r-tres text-center">
                     <p><b>Copy sugerido</b></p>
                     <ol class="txt-copis">
                         <li><span id="copy">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
@@ -156,8 +156,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="#" class="link">Déjanos tus datos aquí.</a></p>
-                <h4>Nuestras instituciones aliadas</h4>
+                <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="#" class="link l-one">Déjanos tus datos aquí.</a></p>
+                <h4 class="endtext">Nuestras instituciones aliadas</h4>
             </div>
             
         </div> 
@@ -554,16 +554,41 @@
     <!-- tour -->
      <script>
         const driver = window.driver.js.driver;
+        
+        const driverObj = driver({
+        nextBtnText: 'Siguiente →',
+        prevBtnText: '← Anterior',
+        doneBtnText: 'Finalizar',
+        showProgress: true,
+        steps: [
+            { element: '#tour-example', popover: { title: 'Bienvenido', description: 'Aquí encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', side: "left", align: 'start' }},
+            { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'start' }},
+            { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' }},
+            { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' }},
+            { element: '.recursos .tres', popover: { title: 'Guía del aspirante', description: 'Material informativo para orientar a quienes desean registrarse.', side: "left", align: 'start' }},
+            { element: '.recursos .cuatro', popover: { title: 'Cartel', description: 'Imagen lista para publicar o imprimir, cuenta con la información principal.', side: "top", align: 'start' }},
+            { element: '.recursos .cinco', popover: { title: 'Mail', description: 'Recurso completo sugerido para difundir la convocatoria por correo electrónico.', side: "top", align: 'start' }},
+            { element: '.recursos .seis', popover: { title: 'Banner para portal', description: 'Imagen optimizada para colocar en páginas web o portales institucionales de la convocatoria abierta y la próxima.', side: "top", align: 'start' }},
+            { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' }},
+            { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' }},
+            { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' }},
+            { element: '.r-uno', popover: { title: 'Video spot', description: 'Video corto, listo para compartir en redes sociales.', side: "top", align: 'start' }},
+            { element: '#buttonVideospot', popover: { description: 'Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
+            { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes.', side: "top", align: 'start' }},
+            { element: '#buttonhastag', popover: { description: 'Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
+            { element: '.r-tres', popover: { title: 'Copy sugerido', description: 'Texto recomendado para acompañar tus publicaciones en redes sociales.', side: "top", align: 'start' }},
+            { element: '#buttoncopy', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
+            { element: '#buttoncopyd', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
+            { element: '#buttoncopyt', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
+            { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' }},
+            { element: '.endtext', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' }},
+            
+            /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
+            { popover: { title: 'Felicidades', description: 'Terminamos el tour.' } }
+        ]
+        });
 
-const driverObj = driver();
-
-driverObj.highlight({
-  element: "#some-element",
-  popover: {
-    title: "Title",
-    description: "Description"
-  }
-});
+        driverObj.drive();
      </script>
 
   </body>

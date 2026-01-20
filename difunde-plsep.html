@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
 
     <link href="assets/css/c26.css" rel="stylesheet">
-    <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet">
+    <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
   </head>
   <body>
     <!-- <div id="headerPLS"></div> --> <!-- etiqueta para q se visualice el header -->
@@ -97,7 +97,7 @@
                     <p>
                         <a type="button" class="btn-detalle" id="buttonVideospot">
                             <svg width="22" height="18" class="me-2">
-                                <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
+                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar enlace
                         </a>
                     </p>
@@ -108,7 +108,7 @@
                     <p>
                         <a type="button" class="btn-detalle" id="buttonhastag">
                             <svg width="22" height="18" class="me-2">
-                                <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
+                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar enlace
                         </a>
                     </p>
@@ -121,19 +121,19 @@
                         <li><span id="copy">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
                         <a type="button" id="buttoncopy" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
-                                <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
+                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
                         <li><span id="copyd">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> dos</span><br> 
                         <a type="button" id="buttoncopyd" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
-                                <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
+                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
                         <li><span id="copyt">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> tres</span><br> 
                         <a type="button" id="buttoncopyt" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
-                                <use xlink:href="/assets/img/sprite.svg#icono-copy"></use>
+                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
                         
@@ -157,7 +157,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="#" class="link l-one">Déjanos tus datos aquí.</a></p>
-                <h4 class="endtext">Nuestras instituciones aliadas</h4>
+                
             </div>
             
         </div> 
@@ -166,7 +166,8 @@
 
       <!-- Logos carusel -->
     <section>
-        <div class="container">
+        <div class="container intituciones">
+            <div class="col-12"><h4 class="endtext">Nuestras instituciones aliadas</h4></div>
             <div class="col-12 mt-4">
                 <section class="responsive slider">
                     <div>
@@ -561,8 +562,8 @@
         doneBtnText: 'Finalizar',
         showProgress: true,
         steps: [
-            { element: '#tour-example', popover: { title: 'Bienvenido', description: 'Aquí encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', side: "left", align: 'start' }},
-            { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'start' }},
+            { element: '#tour-example', popover: { title: 'Bienvenido', description: '<img src="./assets/img/tour/one.jpg" style="width: 270px;"  />Aquí encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', side: "left", align: 'start' }},
+            { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' }},
             { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' }},
             { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' }},
             { element: '.recursos .tres', popover: { title: 'Guía del aspirante', description: 'Material informativo para orientar a quienes desean registrarse.', side: "left", align: 'start' }},
@@ -572,16 +573,16 @@
             { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' }},
             { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' }},
             { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' }},
-            { element: '.r-uno', popover: { title: 'Video spot', description: 'Video corto, listo para compartir en redes sociales.', side: "top", align: 'start' }},
-            { element: '#buttonVideospot', popover: { description: 'Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
+            { element: '.r-uno', popover: { title: 'Video spot', description: '<img src="./assets/img/tour/dos.png" style="width: 270px;"  />Video corto, listo para compartir en redes sociales.', side: "top", align: 'start' }},
+            { element: '#buttonVideospot', popover: { description: '<img src="./assets/img/tour/tres.gif" style="width: 270px;"  />Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
             { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes.', side: "top", align: 'start' }},
-            { element: '#buttonhastag', popover: { description: 'Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
+            { element: '#buttonhastag', popover: { description: '<img src="./assets/img/tour/tres.gif" style="width: 270px;"  />Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
             { element: '.r-tres', popover: { title: 'Copy sugerido', description: 'Texto recomendado para acompañar tus publicaciones en redes sociales.', side: "top", align: 'start' }},
             { element: '#buttoncopy', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
             { element: '#buttoncopyd', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
             { element: '#buttoncopyt', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
-            { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' }},
-            { element: '.endtext', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' }},
+            { element: '.l-one', popover: { description: '<img src="./assets/img/tour/tres.gif" style="width: 270px;"  />Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' }},
+            { element: '.intituciones', popover: { description: '<img src="./assets/img/tour/tres.gif" style="width: 270px;"  />Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' }},
             
             /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
             { popover: { title: 'Felicidades', description: 'Terminamos el tour.' } }

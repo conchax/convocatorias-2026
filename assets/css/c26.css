@@ -468,3 +468,46 @@ b{
 .card-time:nth-child(even) > .info > .title::before {
   right: -53px;
 }
+
+/* end */
+
+.modal-header .btn-close {
+    margin: 0;
+}
+
+.modal-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-title);
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+iframe.pdf{
+    width: 1200px;
+    height: 600px;
+}
+iframe.short {
+    width: 370px;
+    height: 600px;
+}
+
+@media (max-width: 1199.98px) { 
+    iframe.pdf {
+        width: 700px;
+        height: 430px;
+    }
+ }
+
+@media (max-width: 575.98px) {
+    iframe.pdf {
+        width: 320px;
+        height: 430px;
+    }
+    iframe.short {
+        width: 250px;
+        height: 390px;
+    }
+}
+

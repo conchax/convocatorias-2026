@@ -510,4 +510,15 @@ iframe.short {
         height: 390px;
     }
 }
-
+.driver-popover-title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.driver-popover-footer button{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.driver-popover-description{
+    font-family: "Noto Sans", sans-serif;
+}

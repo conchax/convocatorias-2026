@@ -24,8 +24,7 @@
   <body>
     <!-- <div id="headerPLS"></div> --> <!-- etiqueta para q se visualice el header -->
     <!-- <div class="margen"></div> --> <!-- margen del menu -->
-
-      <section class="hero">
+<section class="hero">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -39,14 +38,20 @@
           </p>
         </div>
       </div>
-      
+       <div class="row justify-content-center mt-4">
+        <div class="col-lg-3 text-center mb-3"><!-- En tu HTML -->
+            <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
+        <!-- <a type="button" id="iniciarTour" class="btn btn-recursos">Ver guía interactiva</a> -->
+        </div>
+      </div>
     </div>
   </section>
-   <section class="cta">
+  
+  <section class="cta">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
-            <h3>Difusión de la</h3>
+            <h3>Difusión</h3>
           <p class="tex-convo"> Generación 86</p>
           <hr class="line my-5">
         </div>
@@ -118,19 +123,19 @@
                  <div class="rec r-tres text-center">
                     <p><b>Copy sugerido</b></p>
                     <ol class="txt-copis">
-                        <li><span id="copy">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
+                        <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
                         <a type="button" id="buttoncopy" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
-                        <li><span id="copyd">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> dos</span><br> 
+                        <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪Del 23 de febrero al 4 de marzo regístrate en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> dos</span><br> 
                         <a type="button" id="buttoncopyd" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                             </svg>Copiar copy
                         </a></li>
-                        <li><span id="copyt">¡Prepárate para un futuro exitoso! Regístrate del 13 de febrero al 4 de marzo en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> tres</span><br> 
+                        <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a> tres</span><br> 
                         <a type="button" id="buttoncopyt" class="btn-detalle">
                             <svg width="22" height="18" class="me-2">
                                 <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -156,8 +161,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="#" class="link l-one">Déjanos tus datos aquí.</a></p>
-                
+                <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" class="link l-one">Déjanos tus datos aquí.</a></p>
             </div>
             
         </div> 
@@ -337,7 +341,7 @@
         });
     </script>
 
-        <!--    copiar enlace -->
+    <!--    copiar enlace -->
     <script>
         const button = document.getElementById("buttonVideospot");
         const quote = document.getElementById("videospot");
@@ -378,50 +382,6 @@
             aviso.appendChild(contenidoc);
             document.body.appendChild(aviso);
             window.load = setTimeout("document.body.removeChild(avisoone)", 1000)
-        });
-    </script>
-    
-    <!-- copiar hashtags -->
-    <script>
-        const buttonhastag = document.getElementById("buttonhastag");
-        const elmhastag = document.getElementById("hastag");
-
-        function copyToClipboard(text) {
-            const textArea = document.createElement("textarea");
-            textArea.value = text;
-
-            // Añadir el elemento al DOM
-            document.body.appendChild(textArea);
-
-            // Seleccionar el texto en el textarea
-            textArea.select();
-
-            try {
-                // Copiar el texto al portapapeles
-                document.execCommand("copy");
-                console.log("Copiado al portapapeles");
-            } catch (err) {
-                console.error("No se pudo copiar al portapapeles:", err);
-            }
-            // Eliminar el textarea del DOM
-            document.body.removeChild(textArea);
-        }
-
-        buttonhastag.addEventListener("click", () => {
-            copyToClipboard(elmhastag.textContent);
-
-            var css = document.createElement("style");
-            var estilo = document.createTextNode(
-                "#avisotrhee {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
-            );
-            css.appendChild(estilo);
-            document.head.appendChild(css);
-            var aviso = document.createElement("div");
-            aviso.setAttribute("id", "avisotrhee");
-            var contenidoc = document.createTextNode("Hashtags copiado");
-            aviso.appendChild(contenidoc);
-            document.body.appendChild(aviso);
-            window.load = setTimeout("document.body.removeChild(avisotrhee)", 1000)
         });
     </script>
 
@@ -499,16 +459,16 @@
 
             var css = document.createElement("style");
             var estilo = document.createTextNode(
-                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+                "#avisotwoo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
             );
             css.appendChild(estilo);
             document.head.appendChild(css);
             var aviso = document.createElement("div");
-            aviso.setAttribute("id", "avisotwo");
+            aviso.setAttribute("id", "avisotwoo");
             var contenidoc = document.createTextNode("Copy sugerido copiado");
             aviso.appendChild(contenidoc);
             document.body.appendChild(aviso);
-            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+            window.load = setTimeout("document.body.removeChild(avisotwoo)", 1000)
         });
     </script>
 
@@ -542,48 +502,75 @@
 
             var css = document.createElement("style");
             var estilo = document.createTextNode(
-                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+                "#avisotwooo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
             );
             css.appendChild(estilo);
             document.head.appendChild(css);
             var aviso = document.createElement("div");
-            aviso.setAttribute("id", "avisotwo");
+            aviso.setAttribute("id", "avisotwooo");
             var contenidoc = document.createTextNode("Copy sugerido copiado");
             aviso.appendChild(contenidoc);
             document.body.appendChild(aviso);
-            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+            window.load = setTimeout("document.body.removeChild(avisotwooo)", 1000)
         });
     </script>
 
-    <!-- tour -->
+    <!-- copiar hashtags -->
+    <script>
+        const buttonhastag = document.getElementById("buttonhastag");
+        const elmhastag = document.getElementById("hastag");
+
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
+
+            // Seleccionar el texto en el textarea
+            textArea.select();
+
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttonhastag.addEventListener("click", () => {
+            copyToClipboard(elmhastag.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotrhee {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotrhee");
+            var contenidoc = document.createTextNode("Hashtags copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotrhee)", 1000)
+        });
+    </script>
+
+    <!-- tour    -->
      <script>
         const driver = window.driver.js.driver;
         
         const driverObj = driver({
         showButtons: ['next', 'previous', 'close'],
-        nextBtnText: '→',
-        prevBtnText: '←',
-        doneBtnText: 'Finalizar',
+        nextBtnText: '<img src="assets/img/tour/next.png"/>',
+        prevBtnText: '<img src="assets/img/tour/prev.png"/>',
+        doneBtnText: 'Terminar',
         showProgress: true,
-             // Get full control over the popover rendering
-  onPopoverRender: (popover, { config, state }) => {
-    // Create the custom 'Done' button element
-    const doneButton = document.createElement("button");
-    doneButton.innerText = "Finalizar";
-    // Optional: Add custom CSS classes for styling
-    // doneButton.classList.add("my-custom-done-btn"); 
-
-    // Add an event listener to the button
-    doneButton.addEventListener("click", () => {
-      // Define the action: destroy the driver instance to end the tour
-      driverObj.destroy();
-    });
-
-    // Append the custom button to the footer buttons container
-    popover.footerButtons.appendChild(doneButton);
-  },
         steps: [
-            { element: '#tour-example', popover: { title: 'Bienvenido', description: '<img src="./assets/img/tour/one.jpg" width="270" height="270"/>Aquí encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.',showButtons: ['next'], side: "left", align: 'start' }},
+            { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/one.jpg" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.',showButtons: ['next','close'], side: "left", align: 'start' }},
             { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' }},
             { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' }},
             { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' }},
@@ -594,24 +581,24 @@
             { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' }},
             { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' }},
             { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' }},
-            { element: '.r-uno', popover: { title: 'Video spot', description: 'Video corto, listo para compartir en redes sociales.', side: "top", align: 'start' }},
-            { element: '#buttonVideospot', popover: { description: 'Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
-            { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes.', side: "top", align: 'start' }},
-            { element: '#buttonhastag', popover: { description: 'Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
-            { element: '.r-tres', popover: { title: 'Copy sugerido', description: 'Texto recomendado para acompañar tus publicaciones en redes sociales.', side: "top", align: 'start' }},
-            { element: '#buttoncopy', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
-            { element: '#buttoncopyd', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
-            { element: '#buttoncopyt', popover: { description: 'Haz clic para copiar el texto que acompaña a cada publicación.', side: "top", align: 'start' }},
+            { element: '.r-uno', popover: { title: 'Video spot', description: 'Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
+            { element: '.r-dos', popover: { title: 'Hashtags', description: 'Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
+            { element: '.r-tres', popover: { title: 'Copy sugerido', description: 'Copys recomendados para acompañar tus publicaciones en redes sociales. Elige el de tu preferencia.', side: "top", align: 'start' }},
             { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' }},
             { element: '.intituciones', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' }},
             
             /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
-            { popover: { title: 'Felicidades', description: '<img src="./assets/img/tour/tres.gif" width="270" height="270"  />Terminamos el tour.',showButtons: ['previous', 'close'] } }
+            { popover: {  description: '<img src="./assets/img/tour/tres.gif" width="270" height="270"  />Terminó el recorrido.' } }
         ]
         });
-
+        
         driverObj.drive();
+
+        document.getElementById('start-tour-btn').addEventListener('click', () => {
+        driverObj.drive();
+        });
      </script>
+   
 
   </body>
 </html>

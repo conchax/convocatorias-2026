@@ -1,182 +1,194 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Difunde PL-SEP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300..700;1,300..700&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <!-- Add the slick-theme.css if you want default styling -->
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
 
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- <div id="headerPLS"></div> --> <!-- etiqueta para q se visualice el header -->
     <!-- <div class="margen"></div> --> <!-- margen del menu -->
-<section class="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026">
-        </div>
-      </div>
-      <div class="row mt-4 justify-content-center">
-        <div class="col-md-6 text-center">
-          <p class="px-1">
-            Difunde PL-SEP contiene los recursos oficiales de las convocatorias para compartir en redes sociales o sitios web.
-          </p>
-        </div>
-      </div>
-       <div class="row justify-content-center mt-4">
-        <div class="col-lg-3 text-center mb-3"><!-- En tu HTML -->
-            <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
-        <!-- <a type="button" id="iniciarTour" class="btn btn-recursos">Ver guía interactiva</a> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="cta">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-7 text-center">
-            <h3>Difusión</h3>
-          <p class="tex-convo"> Generación 86</p>
-          <hr class="line my-5">
-        </div>
-        <div class="col-12 text-center">
-            <p class="tex-date highlight">Periodo de registro del <b>23 de febrero al 4 de marzo</b></p>
-        </div>
-      </div>
-         
-    </div>
-  </section>
-
-  <section class="recursos">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde uno">Bases</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde dos">Infografía</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde tres">Guía del aspirante</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde cuatro">Cartel</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde cinco">Mail</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde seis">Banner para portal</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde siete">Boletín</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde ocho">Brochure PL-SEP</a>
-            </div>
-            <div class="col-md-4 mb-3">
-                <a href="#" class="btn btn-difunde btn-difundet nueve">Descargar todo</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="rec r-uno text-center mb-3">
-                    <p><b>Video Spot</b></p>
-                    <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
-                    <p>
-                        <a type="button" class="btn-detalle" id="buttonVideospot">
-                            <svg width="22" height="18" class="me-2">
-                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                            </svg>Copiar enlace
-                        </a>
-                    </p>
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026">
                 </div>
-                <div class="rec r-dos text-center mb-3">
-                    <p><b>Hashtags</b></p>
-                    <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br>#DifundePLSEP</p>
-                    <p>
-                        <a type="button" class="btn-detalle" id="buttonhastag">
-                            <svg width="22" height="18" class="me-2">
-                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                            </svg>Copiar enlace
-                        </a>
+            </div>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p class="px-1">
+                        Difunde PL-SEP contiene los recursos oficiales de las convocatorias para compartir en redes
+                        sociales o sitios web.
                     </p>
                 </div>
             </div>
-            <div class="col-md-6">
-                 <div class="rec r-tres text-center">
-                    <p><b>Copy sugerido</b></p>
-                    <ol class="txt-copis">
-                        <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
-                        <a type="button" id="buttoncopy" class="btn-detalle">
-                            <svg width="22" height="18" class="me-2">
-                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                            </svg>Copiar copy
-                        </a></li>
-                        <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪Del 23 de febrero al 4 de marzo regístrate en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
-                        <a type="button" id="buttoncopyd" class="btn-detalle">
-                            <svg width="22" height="18" class="me-2">
-                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                            </svg>Copiar copy
-                        </a></li>
-                        <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br> 
-                        <a type="button" id="buttoncopyt" class="btn-detalle">
-                            <svg width="22" height="18" class="me-2">
-                                <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                            </svg>Copiar copy
-                        </a></li>
-                        
-                    </ol>
-                 </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-3 text-center mb-3"><!-- En tu HTML -->
+                    <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
+                    <!-- <a type="button" id="iniciarTour" class="btn btn-recursos">Ver guía interactiva</a> -->
+                </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-12 text-center">
-                <p><b>Nota</b>: se sugiere realizar las publicaciones durante el periodo de registro.</p>
-            </div>
-        </div>
-        <div class="row">
-            <hr class="line">
-        </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" class="link l-one">Déjanos tus datos aquí.</a></p>
+    <section class="cta">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h3>Difusión</h3>
+                    <p class="tex-convo"> Generación 86</p>
+                    <hr class="line my-5">
+                </div>
+                <div class="col-12 text-center">
+                    <p class="tex-date highlight">Periodo de registro del <b>23 de febrero al 4 de marzo</b></p>
+                </div>
             </div>
-            
-        </div> 
-    </div>
-  </section>
 
-      <!-- Logos carusel -->
+        </div>
+    </section>
+
+    <section class="recursos">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde uno">Bases</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde dos">Infografía</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde tres">Guía del aspirante</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde cuatro">Cartel</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde cinco">Mail</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde seis">Banner para portal</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde siete">Boletín</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde ocho">Brochure PL-SEP</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="btn btn-difunde btn-difundet nueve">Descargar todo</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="rec r-uno text-center mb-3">
+                        <p><b>Video spot</b></p>
+                        <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
+                        <p>
+                            <a type="button" class="btn-detalle" id="buttonVideospot">
+                                <svg width="22" height="18" class="me-2">
+                                    <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
+                                </svg>Copiar enlace
+                            </a>
+                        </p>
+                    </div>
+                    <div class="rec r-dos text-center mb-3">
+                        <p><b>Hashtags</b></p>
+                        <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br> #DifundePLSEP</p>
+                        <p>
+                            <a type="button" class="btn-detalle" id="buttonhastag">
+                                <svg width="22" height="18" class="me-2">
+                                    <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
+                                </svg>Copiar enlace
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="rec r-tres text-center">
+                        <p><b>Copy sugerido</b></p>
+                        <ol class="txt-copis">
+                            <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆 Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+                                <a type="button" id="buttoncopy" class="btn-detalle">
+                                    <svg width="22" height="18" class="me-2">
+                                        <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
+                                    </svg>Copiar copy
+                                </a>
+                            </li>
+                            <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪 Del 23 de febrero al 4 de marzo regístrate en <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+                                <a type="button" id="buttoncopyd" class="btn-detalle">
+                                    <svg width="22" height="18" class="me-2">
+                                        <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
+                                    </svg>Copiar copy
+                                </a>
+                            </li>
+                            <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀 Regístrate del 23 de febrero al 4 de marzo. <a href="#" class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+                                <a type="button" id="buttoncopyt" class="btn-detalle">
+                                    <svg width="22" height="18" class="me-2">
+                                        <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
+                                    </svg>Copiar copy
+                                </a>
+                            </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p><b>Nota</b>: se sugiere realizar las publicaciones durante el periodo de registro.</p>
+                </div>
+            </div>
+            <div class="row">
+                <hr class="line">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1"
+                            target="_blank" class="link l-one">Déjanos tus datos aquí.</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos carusel -->
     <section>
         <div class="container intituciones">
             <div class="row justify-content-center">
-                <div class="col-12"><h4 class="endtext">Nuestras instituciones aliadas</h4></div>
+                <div class="col-12">
+                    <h4 class="endtext">Nuestras instituciones aliadas</h4>
+                </div>
                 <div class="col-11 col-md-12 mt-4">
                     <section class="responsive slider">
                         <div>
-                            <a href="http://www.xochimilco.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/1.jpg"></a>
+                            <a href="http://www.xochimilco.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/1.jpg"></a>
                         </div>
                         <div>
                             <a href="https://upn.mx/" target="_blank"><img src="assets/img/logos/2.jpg"></a>
@@ -194,55 +206,68 @@
                             <a href="https://www.gob.mx/salud" target="_blank"><img src="assets/img/logos/6.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.conalep.edu.mx/inicio" target="_blank"><img src="assets/img/logos/7.jpg"></a>
+                            <a href="https://www.conalep.edu.mx/inicio" target="_blank"><img
+                                    src="assets/img/logos/7.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.milpa-alta.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/8.jpg"></a>
+                            <a href="https://www.milpa-alta.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/8.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.sonora.gob.mx/" target="_blank"><img src="assets/img/logos/9.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://radioeducacion.edu.mx/" target="_blank"><img src="assets/img/logos/10.jpg"></a>
+                            <a href="https://radioeducacion.edu.mx/" target="_blank"><img
+                                    src="assets/img/logos/10.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://coyoacan.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/11.jpg"></a>
+                            <a href="https://coyoacan.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/11.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.ipn.mx/" target="_blank"><img src="assets/img/logos/12.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.salud.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/13.jpg"></a>
+                            <a href="https://www.salud.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/13.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://libros.conaliteg.gob.mx/" target="_blank"><img src="assets/img/logos/14.jpg"></a>
+                            <a href="https://libros.conaliteg.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/14.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://azcapotzalco.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/15.jpg"></a>
+                            <a href="https://azcapotzalco.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/15.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.gob.mx/buengobierno" target="_blank"><img src="assets/img/logos/16.jpg"></a>
+                            <a href="https://www.gob.mx/buengobierno" target="_blank"><img
+                                    src="assets/img/logos/16.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.bajacalifornia.gob.mx/" target="_blank"><img src="assets/img/logos/17.jpg"></a>
+                            <a href="https://www.bajacalifornia.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/17.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.gob.mx/bienestar" target="_blank"><img src="assets/img/logos/18.jpg"></a>
+                            <a href="https://www.gob.mx/bienestar" target="_blank"><img
+                                    src="assets/img/logos/18.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://see.michoacan.gob.mx/" target="_blank"><img src="assets/img/logos/19.jpg"></a>
+                            <a href="https://see.michoacan.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/19.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.col.gob.mx/" target="_blank"><img src="assets/img/logos/20.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://educacion.nayarit.gob.mx/" target="_blank"><img src="assets/img/logos/21.jpg"></a>
+                            <a href="https://educacion.nayarit.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/21.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.gob.mx/sep" target="_blank"><img src="assets/img/logos/22.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://aguascalientes.gob.mx/index.html" target="_blank"><img src="assets/img/logos/23.jpg"></a>
+                            <a href="https://aguascalientes.gob.mx/index.html" target="_blank"><img
+                                    src="assets/img/logos/23.jpg"></a>
                         </div>
                         <div>
                             <a href="https://inba.gob.mx/" target="_blank"><img src="assets/img/logos/24.jpg"></a>
@@ -254,25 +279,29 @@
                             <a href="https://www.gob.mx/conade" target="_blank"><img src="assets/img/logos/26.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.durango.gob.mx/" target="_blank"><img src="assets/img/logos/27.jpg"></a>
+                            <a href="https://www.durango.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/27.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.gob.mx/inea/" target="_blank"><img src="assets/img/logos/28.jpg"></a>
                         </div>
                         <div>
-                            <a href="http://www.gamadero.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/29.jpg"></a>
+                            <a href="http://www.gamadero.cdmx.gob.mx/" target="_blank"><img
+                                    src="assets/img/logos/29.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.gob.mx/conafe" target="_blank"><img src="assets/img/logos/30.jpg"></a>
                         </div>
                         <div>
-                            <a href="http://www.iztacalco.df.gob.mx/2024/" target="_blank"><img src="assets/img/logos/31.jpg"></a>
+                            <a href="http://www.iztacalco.df.gob.mx/2024/" target="_blank"><img
+                                    src="assets/img/logos/31.jpg"></a>
                         </div>
                         <div>
                             <a href="https://canalonce.mx/" target="_blank"><img src="assets/img/logos/32.jpg"></a>
                         </div>
                         <div>
-                            <a href="https://www.gob.mx/becasbenitojuarez" target="_blank"><img src="assets/img/logos/33.jpg"></a>
+                            <a href="https://www.gob.mx/becasbenitojuarez" target="_blank"><img
+                                    src="assets/img/logos/33.jpg"></a>
                         </div>
                         <div>
                             <a href="https://www.gob.mx/sre" target="_blank"><img src="assets/img/logos/34.jpg"></a>
@@ -293,15 +322,15 @@
     <!-- Logos -->
 
     <!-- <div id="footerPLS"></div> --> <!-- etiqueta para q se visualice el footer -->
-  <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
+    <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
     <!-- scrpt necesario para cagar el contenido del header y fooer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
-        $(document).on('ready', function() {
+        $(document).on('ready', function () {
             $('.responsive').slick({
                 dots: true,
                 infinite: true,
@@ -311,28 +340,28 @@
                 slidesToShow: 8,
                 slidesToScroll: 4,
                 responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 6,
-                            slidesToScroll: 3,
-                            infinite: true,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 4,
-                            slidesToScroll: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 3
-                        }
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 6,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
                     }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
                     // You can unslick at a given breakpoint now by adding:
                     // settings: "unslick"
                     // instead of a settings object
@@ -560,46 +589,47 @@
     </script>
 
     <!-- tour    -->
-     <script>
+    <script>
         const driver = window.driver.js.driver;
-        
+
         const driverObj = driver({
-        showButtons: ['next', 'previous', 'close'],
-        nextBtnText: '<img src="assets/img/tour/next.png"/>',
-        prevBtnText: '<img src="assets/img/tour/prev.png"/>',
-        doneBtnText: 'Terminar',
-        showProgress: true,
-        progressText: ' {{current}} de {{total}}',
-        steps: [
-            { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/one.jpg" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.',showButtons: ['next','close'], side: "left", align: 'start' }},
-            { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' }},
-            { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' }},
-            { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' }},
-            { element: '.recursos .tres', popover: { title: 'Guía del aspirante', description: 'Material informativo para orientar a quienes desean registrarse.', side: "left", align: 'start' }},
-            { element: '.recursos .cuatro', popover: { title: 'Cartel', description: 'Imagen lista para publicar o imprimir, cuenta con la información principal.', side: "top", align: 'start' }},
-            { element: '.recursos .cinco', popover: { title: 'Mail', description: 'Recurso completo sugerido para difundir la convocatoria por correo electrónico.', side: "top", align: 'start' }},
-            { element: '.recursos .seis', popover: { title: 'Banner para portal', description: 'Imagen optimizada para colocar en páginas web o portales institucionales de la convocatoria abierta y la próxima.', side: "top", align: 'start' }},
-            { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' }},
-            { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' }},
-            { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' }},
-            { element: '.r-uno', popover: { title: 'Video spot', description: ' Video corto, listo para compartir en redes sociales. Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' }},
-            { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes. Copia los hashtags oficiales haciendo clic.', side: "top", align: 'start' }},
-            { element: '.r-tres', popover: { title: 'Copy sugerido', description: 'Copys recomendados para acompañar tus publicaciones en redes sociales. Elige el de tu preferencia.', side: "top", align: 'start' }},
-            { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' }},
-            { element: '.intituciones', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' }},
-            
-            /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
-            { popover: { title: 'Terminó el recorrido', description: '<img src="./assets/img/tour/tres.gif" width="270" height="270"  />' } }
-        ]
+            showButtons: ['next', 'previous', 'close'],
+            nextBtnText: '<img src="assets/img/tour/next.png"/>',
+            prevBtnText: '<img src="assets/img/tour/prev.png"/>',
+            doneBtnText: 'Terminar',
+            showProgress: true,
+            progressText: ' {{current}} de {{total}}',
+            steps: [
+                { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/one.jpg" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', showButtons: ['next', 'close'], side: "left", align: 'start' } },
+                { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' } },
+                { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' } },
+                { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' } },
+                { element: '.recursos .tres', popover: { title: 'Guía del aspirante', description: 'Material informativo para orientar a quienes desean registrarse.', side: "left", align: 'start' } },
+                { element: '.recursos .cuatro', popover: { title: 'Cartel', description: 'Imagen lista para publicar o imprimir, cuenta con la información principal.', side: "top", align: 'start' } },
+                { element: '.recursos .cinco', popover: { title: 'Mail', description: 'Recurso completo sugerido para difundir la convocatoria por correo electrónico.', side: "top", align: 'start' } },
+                { element: '.recursos .seis', popover: { title: 'Banner para portal', description: 'Imagen optimizada para colocar en páginas web o portales institucionales de la convocatoria abierta y la próxima.', side: "top", align: 'start' } },
+                { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' } },
+                { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' } },
+                { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' } },
+                { element: '.r-uno', popover: { title: 'Video spot', description: ' Video corto, listo para compartir en redes sociales. Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' } },
+                { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes. Copia los <em>hashtags</em> oficiales haciendo clic.', side: "top", align: 'start' } },
+                { element: '.r-tres', popover: { title: 'Copy sugerido', description: '<em>Copies</em> recomendados para acompañar tus publicaciones en redes sociales. Elige el de tu preferencia.', side: "top", align: 'start' } },
+                { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' } },
+                { element: '.intituciones', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' } },
+
+                /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
+                { popover: { title: 'Terminó el recorrido', description: '<img src="./assets/img/tour/tres.gif" width="270" height="270"  />' } }
+            ]
         });
-        
+
         driverObj.drive();
 
         document.getElementById('start-tour-btn').addEventListener('click', () => {
-        driverObj.drive();
+            driverObj.drive();
         });
-     </script>
-   
+    </script>
 
-  </body>
+
+</body>
+
 </html>

@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ... otros elementos ... -->
+    <link rel="preload" as="image" href="assets/img/tour/guia-interactiva_start.gif">
+    <link rel="preload" as="image" href="assets/img/tour/guia-interactiva_end.gif">
     <title>Difunde PL-SEP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -600,7 +603,7 @@
             showProgress: true,
             progressText: ' {{current}} de {{total}}',
             steps: [
-                { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/one.jpg" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', showButtons: ['next', 'close'], side: "left", align: 'start' } },
+                { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/guia-interactiva_start.gif" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', showButtons: ['next', 'close'], side: "left", align: 'start' } },
                 { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' } },
                 { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' } },
                 { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' } },
@@ -618,7 +621,7 @@
                 { element: '.intituciones', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' } },
 
                 /* { element: 'a[href="/docs/configuration"]', popover: { title: 'More Configuration', description: 'Look at this page for all the configuration options you can pass.', side: "right", align: 'start' }}, */
-                { popover: { title: 'Terminó el recorrido', description: '<img src="./assets/img/tour/tres.gif" width="270" height="270"  />' } }
+                { popover: { title: 'Terminó el recorrido', description: '<img src="./assets/img/tour/guia-interactiva_end.gif" width="270" height="270"  />' } }
             ]
         });
 

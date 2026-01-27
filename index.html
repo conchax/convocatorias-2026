@@ -1,3 +1,18 @@
+<?php
+// VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
+// CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
+<!-- $secA = 8;
+$secB = 9;
+$secC = 10;
+$convoActivo = 11; -->
+
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo85prox") {
+    header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'Authorization Required To Server.';
+    exit;
+} */
+?>
 <!doctype html>
 <html lang="es">
 
@@ -13,8 +28,34 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
   <link href="assets/css/c26.css" rel="stylesheet">
-<!--   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
-  <!-- estilos necesarios para dar formato al header y footer -->
+<!--   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> --><!-- estilos necesarios para dar formato al header y footer -->
+
+<!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Convocatorias - 2026" />
+    <meta property="og:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
+    <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Convocatorias - 2026" />
+    <meta name="twitter:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
+    <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
+
+    <!-- GA Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZH4V12W3M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DZH4V12W3M');
+    </script>
+    <!-- GA Google Analytics -->
 
 </head>
 
@@ -37,8 +78,8 @@
       </div>
       <div class="row justify-content-center mt-4">
         <div class="col-lg-3 text-center mb-3"><a type="button" data-bs-toggle="modal" data-bs-target="#requisitos" class="btn btn-recursos">Requerimientos</a></div>
-        <div class="col-lg-3 text-center mb-3"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btn btn-recursos">Estatus de registro</a></div>
-        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.html" target="_blank" class="btn btn-recursos">Difunde PL-SEP</a></div>
+        <div class="col-lg-3 text-center mb-3"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(3)">Estatus de registro</a></div>
+        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.html" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(4)">Difunde PL-SEP</a></div>
       </div>
     </div>
   </section>
@@ -49,12 +90,12 @@
         <div class="col-md-7 text-center">
           <p class="tex-convo mb-4"> Generación 86</p>
           <p class="tex-date ">del 23 de febrero al 4 de marzo</p>
-          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r">Regístrate aquí</a></p>          
+          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>          
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-md-2 text-center mb-4">
-          <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup" onclick="conteo_recurso(5)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
             </svg> Bases
@@ -63,7 +104,7 @@
 
 
         <div class="col-md-2 text-center mb-3">
-          <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspirante" class="btn-cta-popup">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspirante" class="btn-cta-popup" onclick="conteo_recurso(6)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
             </svg> Guía del aspirante
@@ -78,13 +119,13 @@
     <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="col-md-4 text-center mb-2">
-          <a href="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" data-bs-toggle="modal" data-bs-target="#comprime" data-url="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" class="btn-play">
+          <a href="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" data-bs-toggle="modal" data-bs-target="#comprime" data-url="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" class="btn-play" onclick="conteo_recurso(7)">
             <svg class="icono" width="28" height="28">
 							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo comprimir PDF?</a>
         </div>
         <div class="col-md-4 text-center ">
-          <a href="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" data-bs-toggle="modal" data-bs-target="#escanea" data-url="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" class="btn-play">
+          <a href="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" data-bs-toggle="modal" data-bs-target="#escanea" data-url="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" class="btn-play" onclick="conteo_recurso(8)">
             <svg class="icono" width="28" height="28">
 							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo escanear documentos con tu celular?</a>
@@ -114,7 +155,7 @@
             </a>
           </p>
           <p>
-            <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspiranteA" class="btn-detalle">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspiranteA" class="btn-detalle" onclick="conteo_recurso(9)">
               <svg width="18" height="22" class="me-2">
                 <use xlink:href="./assets/img/sprite.svg#icono-guiar"></use>
               </svg>Guía del aspirante
@@ -201,6 +242,30 @@
 
  <!--  <div id="footerPLS"></div> --> <!-- etiqueta para q se visualice el footer -->
 
+<!-- Modal Requerimientos -->
+<div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="requisitosModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="requisitosModalLabel">Requerimientos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="row justify-content-center">
+              <iframe class="pdf" src="assets/pdf/info_requisitos.pdf"></iframe>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-11 text-center">
+              <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" onclick="conteo_recurso(2)" download>Descargar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Modal sigueprocesoA -->
 <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
@@ -221,13 +286,13 @@
                   <div class="outer">
                     <div class="card-time colorg83">
                       <div class="info">
-                        <h3 class="title colorg83">Obtener tus claves de acceso</h3>
+                        <a class="btn title colorg83 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(10,<?php echo $secA; ?>)">Obtener tus claves de acceso</a>
                         <p>del 28 al 30 de noviembre</p>
                       </div>
                     </div>
                     <div class="card-time colorg83">
                       <div class="info">
-                        <h3 class="title colorg83">Cursa el módulo  propedéutico</h3>
+                        <a class="btn title colorg83 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(11,<?php echo $secA; ?>)">Cursa el módulo  propedéutico</a>
                         <p>del 1 al 10 de diciembre</p>
                       </div>
                     </div>
@@ -346,30 +411,6 @@
             </div>
         </div>
     </div>
-</div>
-
-<!-- Modal Requerimientos -->
-<div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="requisitosModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="requisitosModalLabel">Requerimientos</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
-              <iframe class="pdf" src="assets/pdf/info_requisitos.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" download>Descargar</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <!-- Modal Bases -->

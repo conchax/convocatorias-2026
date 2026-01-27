@@ -429,6 +429,7 @@ b{
   font-size: 18px;
   text-decoration: underline;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 /* Timeline dot  */
@@ -521,4 +522,10 @@ iframe.short {
 }
 .driver-popover-description{
     font-family: "Noto Sans", sans-serif;
+}
+
+.info .btn{
+    padding: 0;
+    text-align: unset;
+    border: none;
 }

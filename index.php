@@ -1,10 +1,10 @@
 <?php
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
-<!-- $secA = 8;
+$secA = 8;
 $secB = 9;
 $secC = 10;
-$convoActivo = 11; -->
+$convoActivo = 11;
 
 /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo85prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
@@ -79,7 +79,7 @@ $convoActivo = 11; -->
       <div class="row justify-content-center mt-4">
         <div class="col-lg-3 text-center mb-3"><a type="button" data-bs-toggle="modal" data-bs-target="#requisitos" class="btn btn-recursos">Requerimientos</a></div>
         <div class="col-lg-3 text-center mb-3"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(3)">Estatus de registro</a></div>
-        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.html" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(4)">Difunde PL-SEP</a></div>
+        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.php" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(4)">Difunde PL-SEP</a></div>
       </div>
     </div>
   </section>
@@ -155,7 +155,7 @@ $convoActivo = 11; -->
             </a>
           </p>
           <p>
-            <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspiranteA" class="btn-detalle" onclick="conteo_recurso(9)">
+            <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspiranteA" class="btn-detalle">
               <svg width="18" height="22" class="me-2">
                 <use xlink:href="./assets/img/sprite.svg#icono-guiar"></use>
               </svg>Guía del aspirante
@@ -214,7 +214,7 @@ $convoActivo = 11; -->
       </div>
       <div class="row justify-content-center mb-5">
         <div class="col-md-4 text-center mb-3">
-          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/kit_aspirante" target="_blank">
+          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/kit_aspirante" target="_blank" onclick="conteo_recurso(24)">
               <span class="btn-label">
                 <svg width="23" height="17" class="me-2 icono">
                   <use xlink:href="./assets/img/sprite.svg#icono-kit"></use>
@@ -224,7 +224,7 @@ $convoActivo = 11; -->
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" >
+          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(25)">
               <span class="btn-label">
                 <svg width="22" height="22" class="me-2 icono">
                   <use xlink:href="./assets/img/sprite.svg#icono-mesa-s"></use>
@@ -298,13 +298,13 @@ $convoActivo = 11; -->
                     </div>
                     <div class="card-time colorg83">
                       <div class="info">
-                        <h3 class="title colorg83">Consulta tus resultados e inscríbete</h3>
+                        <a class="btn title colorg83 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                         <p>del 12 al 17 de diciembre</p>
                       </div>
                     </div>
                     <div class="card-time colorg83">
                       <div class="info">
-                        <h3 class="title title-on colorg83">Cursa el módulo 1</h3>
+                        <a class="btn title title-on colorg83" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo 1</a>
                         <p>del 5 de enero al 1 de febrero</p>
                       </div>
                     </div>
@@ -335,25 +335,25 @@ $convoActivo = 11; -->
                   <div class="outer">
                     <div class="card-time colorg84">
                       <div class="info">
-                        <h3 class="title colorg84">Obtener tus claves de acceso</h3>
+                        <a class="btn title colorg84 disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(15,<?php echo $secB; ?>)">Obtener tus claves de acceso</a>
                         <p>del 9 al 11 de enero</p>
                       </div>
                     </div>
                     <div class="card-time colorg84">
                       <div class="info">
-                        <h3 class="title colorg84">Cursa el módulo  propedéutico</h3>
+                        <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(16,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>                        
                         <p>del 12 al 21 de enero</p>
                       </div>
                     </div>
                     <div class="card-time colorg84">
                       <div class="info">
-                        <h3 class="title colorg84">Consulta tus resultados e inscríbete</h3>
+                        <a class="btn title colorg84 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>                        
                         <p>del 23 al 28 de enero</p>
                       </div>
                     </div>
                     <div class="card-time colorg84">
                       <div class="info">
-                        <h3 class="title title-on colorg84">Cursa el módulo 1</h3>
+                        <a class="btn title title-on colorg84" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>                        
                         <p>del 2 de febrero al 1 de marzo</p>
                       </div>
                     </div>
@@ -384,25 +384,25 @@ $convoActivo = 11; -->
                   <div class="outer">
                     <div class="card-time colorg85">
                       <div class="info">
-                        <h3 class="title colorg85">Obtener tus claves de acceso</h3>
+                        <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
                         <p>del 6 al 8 de febrero</p>
                       </div>
                     </div>
                     <div class="card-time colorg85">
                       <div class="info">
-                        <h3 class="title colorg85">Cursa el módulo  propedéutico</h3>
+                        <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>                        
                         <p>del 9 al 18 de febrero</p>
                       </div>
                     </div>
                     <div class="card-time colorg85">
                       <div class="info">
-                        <h3 class="title colorg85">Consulta tus resultados e inscríbete</h3>
+                        <a class="btn title colorg85 activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                         <p>del 20 al 25 de febrero</p>
                       </div>
                     </div>
                     <div class="card-time colorg85">
                       <div class="info">
-                        <h3 class="title colorg85">Cursa el módulo 1</h3>
+                        <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                         <p>del 2 al 29 de marzo</p>
                       </div>
                     </div>
@@ -476,7 +476,7 @@ $convoActivo = 11; -->
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf">Descargar</a>
+              <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf" onclick="conteo_recurso(9)">Descargar</a>
             </div>
           </div>
         </div>
@@ -500,7 +500,7 @@ $convoActivo = 11; -->
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf">Descargar</a>
+              <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14)">Descargar</a>
             </div>
           </div>
         </div>
@@ -524,7 +524,7 @@ $convoActivo = 11; -->
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf">Descargar</a>
+              <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19)">Descargar</a>
             </div>
           </div>
         </div>
@@ -584,16 +584,19 @@ $convoActivo = 11; -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+      <script src="clics_recursos/conteos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-     <script>
-        jQuery('.modal').on('show.bs.modal', function(event) {
-            jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));
-        });
 
-        jQuery('.modal').on('hidden.bs.modal', function(e) {
-            jQuery(this).find('iframe').attr("src", "");
-        });
-    </script>
+     
+  <script>
+      jQuery('.modal').on('show.bs.modal', function(event) {
+          jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));
+      });
+
+      jQuery('.modal').on('hidden.bs.modal', function(e) {
+          jQuery(this).find('iframe').attr("src", "");
+      });
+  </script>
 </body>
 
 

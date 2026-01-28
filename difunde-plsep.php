@@ -46,9 +46,8 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-lg-3 text-center mb-3"><!-- En tu HTML -->
+                <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
-                    <!-- <a type="button" id="iniciarTour" class="btn btn-recursos">Ver guía interactiva</a> -->
                 </div>
             </div>
         </div>
@@ -74,31 +73,31 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-difunde uno" download>Bases</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Infografia.png" class="btn btn-difunde dos" download>Infografía</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-difunde tres" download>Guía del aspirante</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Cartel.zip" class="btn btn-difunde cuatro" download>Cartel</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Mail.png" class="btn btn-difunde cinco" download>Mail</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Banners.zip" class="btn btn-difunde seis" download>Banner para portal</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Boletin_institucional.pdf" class="btn btn-difunde siete" download>Boletín</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Boletin_institucional.pdf" class="btn btn-difunde siete" onclick="conteo_recurso(32)" download>Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Brochure.pdf" class="btn btn-difunde ocho" download>Brochure PL-SEP</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Recursos.zip" class="btn btn-difunde btn-difundet nueve" download>Descargar todo</a>
+                    <a href="kit86/PL-SEP_Convo2026-G86-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
@@ -107,7 +106,7 @@
                         <p><b>Video spot</b></p>
                         <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
                         <p>
-                            <a type="button" class="btn-detalle" id="buttonVideospot">
+                            <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
                                     <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                 </svg>Copiar enlace
@@ -118,7 +117,7 @@
                         <p><b>Hashtags</b></p>
                         <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br> #DifundePLSEP</p>
                         <p>
-                            <a type="button" class="btn-detalle" id="buttonhastag">
+                            <a type="button" class="btn-detalle" id="buttonhastag" onclick="conteo_recurso(36)">
                                 <svg width="22" height="18" class="me-2">
                                     <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                 </svg>Copiar enlace
@@ -133,7 +132,7 @@
                             <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆 Regístrate del 23 de febrero al
                                     4 de marzo. <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
-                                <a type="button" id="buttoncopy" class="btn-detalle">
+                                <a type="button" id="buttoncopy" class="btn-detalle" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
@@ -142,7 +141,7 @@
                             <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪 Del
                                     23 de febrero al 4 de marzo regístrate en <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
-                                <a type="button" id="buttoncopyd" class="btn-detalle">
+                                <a type="button" id="buttoncopyd" class="btn-detalle" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
@@ -151,7 +150,7 @@
                             <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀 Regístrate
                                     del 23 de febrero al 4 de marzo. <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
-                                <a type="button" id="buttoncopyt" class="btn-detalle">
+                                <a type="button" id="buttoncopyt" class="btn-detalle" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
@@ -179,7 +178,7 @@
                 <div class="col-12">
                     <p class="text-center">¿Te gustaría formar parte de nuestras instituciones aliadas? <a
                             href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1"
-                            target="_blank" class="link l-one">Déjanos tus datos aquí.</a></p>
+                            target="_blank" class="link l-one" onclick="conteo_recurso(40)">Déjanos tus datos aquí.</a></p>
                 </div>
 
             </div>
@@ -336,8 +335,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="clics_recursos/conteos.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    
+    
     <script type="text/javascript">
         $(document).on('ready', function () {
             $('.responsive').slick({
@@ -635,8 +639,6 @@
             driverObj.drive();
         });
     </script>
-
-
 </body>
 
 </html>

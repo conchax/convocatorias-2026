@@ -373,7 +373,7 @@ b{
 /* Setting the border of top, bottom, left */
 .card-time:nth-child(odd)::before {
   left: 0px;
-  top: -4.5px;
+  top: -5px;
   bottom: -4.5px;
   border-width: 5px 0 5px 5px;
   border-radius: 50px 0 0 50px;
@@ -390,7 +390,7 @@ b{
 /* Setting the border of top, bottom, right */
 .card-time:nth-child(even)::before {
   right: 0;
-  top: 0;
+  top: -0.5px;
   bottom: 0;
   border-width: 5px 5px 5px 0;
   border-radius: 0 50px 50px 0;

@@ -4,7 +4,7 @@
 function convosql_connect()
 {
 	// informacion del servidor de BD LOCAL
-	$server = 'localhost';
+	$server = '127.0.0.1:1433';
   $usser  = 'root';
   $passw  = '';
   $baseDatos = 'recursos_convos';

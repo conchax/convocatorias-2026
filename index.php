@@ -78,8 +78,8 @@ $convoActivo = 11;
       </div>
       <div class="row justify-content-center mt-4">
         <div class="col-lg-3 text-center mb-3"><a type="button" data-bs-toggle="modal" data-bs-target="#requisitos" class="btn btn-recursos">Requerimientos</a></div>
-        <div class="col-lg-3 text-center mb-3"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(3)">Estatus de registro</a></div>
-        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.php" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(4)">Difunde PL-SEP</a></div>
+        <div class="col-lg-3 text-center mb-3"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(3,<?php echo $convoActivo ?>)">Estatus de registro</a></div>
+        <div class="col-lg-3 text-center mb-3"><a href="difunde-plsep.php" target="_blank" class="btn btn-recursos" onclick="conteo_recurso(4,<?php echo $convoActivo ?>)">Difunde PL-SEP</a></div>
       </div>
     </div>
   </section>
@@ -95,7 +95,7 @@ $convoActivo = 11;
       </div>
       <div class="row justify-content-center">
         <div class="col-md-2 text-center mb-4">
-          <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup" onclick="conteo_recurso(5)">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup" onclick="conteo_recurso(5,<?php echo $convoActivo ?>)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
             </svg> Bases
@@ -104,7 +104,7 @@ $convoActivo = 11;
 
 
         <div class="col-md-2 text-center mb-3">
-          <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspirante" class="btn-cta-popup" onclick="conteo_recurso(6)">
+          <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspirante" class="btn-cta-popup" onclick="conteo_recurso(6,<?php echo $convoActivo ?>)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
             </svg> Guía del aspirante
@@ -119,13 +119,13 @@ $convoActivo = 11;
     <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="col-md-4 text-center mb-2">
-          <a href="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" data-bs-toggle="modal" data-bs-target="#comprime" data-url="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" class="btn-play" onclick="conteo_recurso(7)">
+          <a href="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" data-bs-toggle="modal" data-bs-target="#comprime" data-url="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" class="btn-play" onclick="conteo_recurso(7,<?php echo $convoActivo ?>)">
             <svg class="icono" width="28" height="28">
 							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo comprimir PDF?</a>
         </div>
         <div class="col-md-4 text-center ">
-          <a href="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" data-bs-toggle="modal" data-bs-target="#escanea" data-url="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" class="btn-play" onclick="conteo_recurso(8)">
+          <a href="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" data-bs-toggle="modal" data-bs-target="#escanea" data-url="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" class="btn-play" onclick="conteo_recurso(8,<?php echo $convoActivo ?>)">
             <svg class="icono" width="28" height="28">
 							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
 						</svg> ¿Cómo escanear documentos con tu celular?</a>
@@ -214,7 +214,7 @@ $convoActivo = 11;
       </div>
       <div class="row justify-content-center mb-5">
         <div class="col-md-4 text-center mb-3">
-          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/kit_aspirante" target="_blank" onclick="conteo_recurso(24)">
+          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/kit_aspirante" target="_blank" onclick="conteo_recurso(24,<?php echo $convoActivo ?>)">
               <span class="btn-label">
                 <svg width="23" height="17" class="me-2 icono">
                   <use xlink:href="./assets/img/sprite.svg#icono-kit"></use>
@@ -224,7 +224,7 @@ $convoActivo = 11;
           </a>
         </div>
         <div class="col-md-4 text-center">
-          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(25)">
+          <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(25,<?php echo $convoActivo ?>)">
               <span class="btn-label">
                 <svg width="22" height="22" class="me-2 icono">
                   <use xlink:href="./assets/img/sprite.svg#icono-mesa-s"></use>
@@ -257,7 +257,7 @@ $convoActivo = 11;
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" onclick="conteo_recurso(2)" download>Descargar</a>
+              <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" onclick="conteo_recurso(2,<?php echo $convoActivo ?>)" download>Descargar</a>
             </div>
           </div>
         </div>
@@ -476,7 +476,7 @@ $convoActivo = 11;
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf" onclick="conteo_recurso(9)">Descargar</a>
+              <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf" onclick="conteo_recurso(9,<?php echo $convoActivo ?>)">Descargar</a>
             </div>
           </div>
         </div>
@@ -500,7 +500,7 @@ $convoActivo = 11;
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14)">Descargar</a>
+              <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14,<?php echo $convoActivo ?>)">Descargar</a>
             </div>
           </div>
         </div>
@@ -524,7 +524,7 @@ $convoActivo = 11;
           </div>
           <div class="row justify-content-center mt-4">
             <div class="col-12 col-md-11 text-center">
-              <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19)">Descargar</a>
+              <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19,<?php echo $convoActivo ?>)">Descargar</a>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ $convoActivo = 11;
     rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
   <link href="assets/css/c26.css" rel="stylesheet">
 <!--   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> --><!-- estilos necesarios para dar formato al header y footer -->
 
@@ -60,8 +60,8 @@ $convoActivo = 11;
 </head>
 
 <body>
-  <!-- <div id="headerPLS"></div>  --><!-- etiqueta para q se visualice el header -->
-  <!-- <div class="margen"></div> --> <!-- margen del menu -->
+  <div id="headerPLS"></div> <!-- etiqueta para q se visualice el header -->
+  <div class="section-w"></div> <!-- margen del menu -->
   <section class="hero">
     <div class="container">
       <div class="row">
@@ -115,7 +115,7 @@ $convoActivo = 11;
     </div>
   </section>
   
-  <section>
+  <section class="vts">
     <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="col-md-4 text-center mb-2">
@@ -134,7 +134,7 @@ $convoActivo = 11;
     </div>
   </section>
 
-  <section>
+  <section class="siguiente-proceso">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 mb-4">
@@ -205,7 +205,7 @@ $convoActivo = 11;
     </div>
   </section>
 
-  <section>
+  <section class="dudas">
     <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="col-md-9">
@@ -240,7 +240,7 @@ $convoActivo = 11;
 
 
 
- <!--  <div id="footerPLS"></div> --> <!-- etiqueta para q se visualice el footer -->
+  <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
 
 <!-- Modal Requerimientos -->
 <div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="requisitosModalLabel" aria-hidden="true">
@@ -396,7 +396,7 @@ $convoActivo = 11;
                     </div>
                     <div class="card-time colorg85">
                       <div class="info">
-                        <a class="btn title colorg85 activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                        <a class="btn title colorg85 title-on" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                         <p>del 20 al 25 de febrero</p>
                       </div>
                     </div>
@@ -581,12 +581,12 @@ $convoActivo = 11;
 
 
   <!-- <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> --><!-- scrpt necesario para cagar el contenido del header y fooer -->
+  <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-      <script src="clics_recursos/conteos.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+  <script src="clics_recursos/conteos.js"></script>
      
   <script>
       jQuery('.modal').on('show.bs.modal', function(event) {

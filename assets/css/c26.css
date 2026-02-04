@@ -529,3 +529,10 @@ iframe.short {
     text-align: unset;
     border: none;
 }
+
+
+.driver-popover-footer{
+    background-color: transparent!important;
+    padding: 0;
+    color: #2d2d2d!important;
+}

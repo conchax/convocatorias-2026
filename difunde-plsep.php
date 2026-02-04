@@ -22,14 +22,14 @@
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
-
+    <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
 </head>
 
 <body>
-    <!-- <div id="headerPLS"></div> --> <!-- etiqueta para q se visualice el header -->
-    <!-- <div class="margen"></div> --> <!-- margen del menu -->
+    <div id="headerPLS"></div> <!-- etiqueta para q se visualice el header -->
+    <div class="section-w"></div> <!-- margen del menu -->
     <section class="hero">
         <div class="container">
             <div class="row">
@@ -329,9 +329,10 @@
     </section>
     <!-- Logos -->
 
-    <!-- <div id="footerPLS"></div> --> <!-- etiqueta para q se visualice el footer -->
+    <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
     <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
     <!-- scrpt necesario para cagar el contenido del header y fooer -->
+    <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -341,7 +342,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     
-    
+    <!-- Slider instituciones -->
     <script type="text/javascript">
         $(document).on('ready', function () {
             $('.responsive').slick({

@@ -6,12 +6,12 @@ $secB = 10;
 $secC = 11;
 $convoActivo = 12;
 
-if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo86prox") {
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo86prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-}
+} */
 ?>
 <!doctype html>
 <html lang="es">
@@ -20,6 +20,7 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Convocatorias 2026</title>
+  <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300..700;1,300..700&display=swap"
@@ -28,34 +29,34 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
   <link href="assets/css/c26.css" rel="stylesheet">
-<!--   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> --><!-- estilos necesarios para dar formato al header y footer -->
+  <!--   <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> --><!-- estilos necesarios para dar formato al header y footer -->
 
-<!-- You can use Open Graph tags to customize link previews.
+  <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-    <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Convocatorias - 2026" />
-    <meta property="og:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
-    <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
+  <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Convocatorias - 2026" />
+  <meta property="og:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
+  <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Convocatorias - 2026" />
-    <meta name="twitter:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
-    <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Convocatorias - 2026" />
+  <meta name="twitter:description" content="Bachillerato en línea, gratuito y con certificado de la SEP. Haz clic y regístrate." />
+  <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-registro.png" />
 
-    <!-- GA Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZH4V12W3M"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- GA Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZH4V12W3M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        gtag('config', 'G-DZH4V12W3M');
-    </script>
-    <!-- GA Google Analytics -->
+    gtag('config', 'G-DZH4V12W3M');
+  </script>
+  <!-- GA Google Analytics -->
 
 </head>
 
@@ -89,8 +90,8 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
           <p class="tex-convo mb-4"> Generación 86</p>
-          <p class="tex-date ">del 23 de febrero al 4 de marzo</p>
-          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>          
+          <p class="tex-date ">Próximamente</p> <!-- del 23 de febrero al 4 de marzo -->
+          <p class="my-5 d-none"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -111,24 +112,24 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
           </a>
         </div>
 
-      </div>      
+      </div>
     </div>
   </section>
-  
+
   <section class="vts">
     <div class="container">
       <div class="row justify-content-center mb-4">
         <div class="col-md-4 text-center mb-2">
           <a href="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" data-bs-toggle="modal" data-bs-target="#comprime" data-url="https://www.youtube.com/embed/rflGquSHgV8?si=TZmEPBYnpGbAt0lf" class="btn-play" onclick="conteo_recurso(7,<?php echo $convoActivo ?>)">
             <svg class="icono" width="28" height="28">
-							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
-						</svg> ¿Cómo comprimir PDF?</a>
+              <use xlink:href="./assets/img/sprite.svg#icono-play"></use>
+            </svg> ¿Cómo comprimir PDF?</a>
         </div>
         <div class="col-md-4 text-center ">
           <a href="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" data-bs-toggle="modal" data-bs-target="#escanea" data-url="https://www.youtube.com/embed/PZBrEulr2W4?si=s-3T6SHqHFrIlyfo" class="btn-play" onclick="conteo_recurso(8,<?php echo $convoActivo ?>)">
             <svg class="icono" width="28" height="28">
-							<use xlink:href="./assets/img/sprite.svg#icono-play"></use>
-						</svg> ¿Cómo escanear documentos con tu celular?</a>
+              <use xlink:href="./assets/img/sprite.svg#icono-play"></use>
+            </svg> ¿Cómo escanear documentos con tu celular?</a>
         </div>
       </div>
     </div>
@@ -145,13 +146,13 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-3 text-center">
+        <div class="col-md-3 text-center d-none">
           <p><img src="assets/img/i83.png" alt="generación 83"></p>
           <p>
             <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoA">
-            <svg width="16" height="12" class="me-2">
-							<use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
-						</svg>Ver proceso
+              <svg width="16" height="12" class="me-2">
+                <use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
+              </svg>Ver proceso
             </a>
           </p>
           <p>
@@ -166,9 +167,9 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
           <p><img src="assets/img/i84.png" alt="generación 84"></p>
           <p>
             <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoB">
-            <svg width="16" height="12" class="me-2">
-							<use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
-						</svg>Ver proceso
+              <svg width="16" height="12" class="me-2">
+                <use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
+              </svg>Ver proceso
             </a>
           </p>
           <p>
@@ -183,9 +184,9 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
           <p><img src="assets/img/i85.png" alt="generación 85"></p>
           <p>
             <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoC">
-            <svg width="16" height="12" class="me-2">
-							<use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
-						</svg>Ver proceso
+              <svg width="16" height="12" class="me-2">
+                <use xlink:href="./assets/img/sprite.svg#icono-proceso"></use>
+              </svg>Ver proceso
             </a>
           </p>
           <p>
@@ -215,23 +216,23 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
       <div class="row justify-content-center mb-5">
         <div class="col-md-4 text-center mb-3">
           <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/kit_aspirante" target="_blank" onclick="conteo_recurso(24,<?php echo $convoActivo ?>)">
-              <span class="btn-label">
-                <svg width="23" height="17" class="me-2 icono">
-                  <use xlink:href="./assets/img/sprite.svg#icono-kit"></use>
-                </svg>
-              </span>
-              <div class="text-bottom">Kit del aspirante</div>
+            <span class="btn-label">
+              <svg width="23" height="17" class="me-2 icono">
+                <use xlink:href="./assets/img/sprite.svg#icono-kit"></use>
+              </svg>
+            </span>
+            <div class="text-bottom">Kit del aspirante</div>
           </a>
         </div>
         <div class="col-md-4 text-center">
           <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(25,<?php echo $convoActivo ?>)">
-              <span class="btn-label">
-                <svg width="22" height="22" class="me-2 icono">
-                  <use xlink:href="./assets/img/sprite.svg#icono-mesa-s"></use>
-                </svg>
-               
-              </span>
-              <div class="text-bottom">Mesa de servicio</div>
+            <span class="btn-label">
+              <svg width="22" height="22" class="me-2 icono">
+                <use xlink:href="./assets/img/sprite.svg#icono-mesa-s"></use>
+              </svg>
+
+            </span>
+            <div class="text-bottom">Mesa de servicio</div>
           </a>
         </div>
       </div>
@@ -242,342 +243,342 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
 
   <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
 
-<!-- Modal Requerimientos -->
-<div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="requisitosModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="requisitosModalLabel">Requerimientos</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+  <!-- Modal Requerimientos -->
+  <div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="requisitosModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="requisitosModalLabel">Requerimientos</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="assets/pdf/info_requisitos.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" onclick="conteo_recurso(2,<?php echo $convoActivo ?>)" download>Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="assets/pdf/info_requisitos.pdf" class="btn btn-recursos" onclick="conteo_recurso(2,<?php echo $convoActivo ?>)" download>Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal sigueprocesoA -->
-<div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <!-- Modal sigueprocesoA -->
+  <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-10">
-                            <p class="title-modal d-flex align-items-center">Generación <span class="colorg83">83</span></p>                                   
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline">
-                  <div class="outer">
-                    <div class="card-time colorg83">
-                      <div class="info">
-                        <a class="btn title colorg83 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(10,<?php echo $secA; ?>)">Obtener tus claves de acceso</a>
-                        <p>del 28 al 30 de noviembre</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg83">
-                      <div class="info">
-                        <a class="btn title colorg83 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(11,<?php echo $secA; ?>)">Cursa el módulo  propedéutico</a>
-                        <p>del 1 al 10 de diciembre</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg83">
-                      <div class="info">
-                        <a class="btn title colorg83 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
-                        <p>del 12 al 17 de diciembre</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg83">
-                      <div class="info">
-                        <a class="btn title title-on colorg83" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo 1</a>
-                        <p>del 5 de enero al 1 de febrero</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-    </div>
-</div>
-
-<!-- Modal sigueprocesoB -->
-<div class="modal fade" id="sigueprocesoB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10">
+                <p class="title-modal d-flex align-items-center">Generación <span class="colorg83">83</span></p>
+              </div>
             </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-10">
-                            <p class="title-modal d-flex align-items-center">Generación <span class="colorg84">84</span></p>                                   
-                        </div>
-                    </div>
+          </div>
+          <div class="timeline">
+            <div class="outer">
+              <div class="card-time colorg83">
+                <div class="info">
+                  <a class="btn title colorg83 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(10,<?php echo $secA; ?>)">Obtener tus claves de acceso</a>
+                  <p>del 28 al 30 de noviembre</p>
                 </div>
-                <div class="timeline">
-                  <div class="outer">
-                    <div class="card-time colorg84">
-                      <div class="info">
-                        <a class="btn title colorg84 disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(15,<?php echo $secB; ?>)">Obtener tus claves de acceso</a>
-                        <p>del 9 al 11 de enero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg84">
-                      <div class="info">
-                        <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(16,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>                        
-                        <p>del 12 al 21 de enero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg84">
-                      <div class="info">
-                        <a class="btn title colorg84 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>                        
-                        <p>del 23 al 28 de enero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg84">
-                      <div class="info">
-                        <a class="btn title title-on colorg84" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>                        
-                        <p>del 2 de febrero al 1 de marzo</p>
-                      </div>
-                    </div>
-                  </div>
+              </div>
+              <div class="card-time colorg83">
+                <div class="info">
+                  <a class="btn title colorg83 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(11,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
+                  <p>del 1 al 10 de diciembre</p>
                 </div>
+              </div>
+              <div class="card-time colorg83">
+                <div class="info">
+                  <a class="btn title colorg83 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
+                  <p>del 12 al 17 de diciembre</p>
+                </div>
+              </div>
+              <div class="card-time colorg83">
+                <div class="info">
+                  <a class="btn title title-on colorg83" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo 1</a>
+                  <p>del 5 de enero al 1 de febrero</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-
-<!-- Modal sigueprocesoC -->
-<div class="modal fade" id="sigueprocesoC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-10">
-                            <p class="title-modal d-flex align-items-center">Generación <span class="colorg85">85</span></p>                                   
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline">
-                  <div class="outer">
-                    <div class="card-time colorg85">
-                      <div class="info">
-                        <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
-                        <p>del 6 al 8 de febrero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg85">
-                      <div class="info">
-                        <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>                        
-                        <p>del 9 al 18 de febrero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg85">
-                      <div class="info">
-                        <a class="btn title colorg85 title-on" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
-                        <p>del 20 al 25 de febrero</p>
-                      </div>
-                    </div>
-                    <div class="card-time colorg85">
-                      <div class="info">
-                        <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
-                        <p>del 2 al 29 de marzo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal Bases -->
-<div class="modal fade" id="bases" tabindex="-1" aria-labelledby="basesModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="basesModalLabel">Bases</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+    </div>
+  </div>
+
+  <!-- Modal sigueprocesoB -->
+  <div class="modal fade" id="sigueprocesoB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10">
+                <p class="title-modal d-flex align-items-center">Generación <span class="colorg84">84</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="outer">
+              <div class="card-time colorg84">
+                <div class="info">
+                  <a class="btn title colorg84 disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(15,<?php echo $secB; ?>)">Obtener tus claves de acceso</a>
+                  <p>del 9 al 11 de enero</p>
+                </div>
+              </div>
+              <div class="card-time colorg84">
+                <div class="info">
+                  <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(16,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
+                  <p>del 12 al 21 de enero</p>
+                </div>
+              </div>
+              <div class="card-time colorg84">
+                <div class="info">
+                  <a class="btn title colorg84 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
+                  <p>del 23 al 28 de enero</p>
+                </div>
+              </div>
+              <div class="card-time colorg84">
+                <div class="info">
+                  <a class="btn title title-on colorg84" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>
+                  <p>del 2 de febrero al 1 de marzo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal sigueprocesoC -->
+  <div class="modal fade" id="sigueprocesoC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10">
+                <p class="title-modal d-flex align-items-center">Generación <span class="colorg85">85</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline">
+            <div class="outer">
+              <div class="card-time colorg85">
+                <div class="info">
+                  <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
+                  <p>del 6 al 8 de febrero</p>
+                </div>
+              </div>
+              <div class="card-time colorg85">
+                <div class="info">
+                  <a class="btn title colorg85 title-on" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                  <p>del 9 al 18 de febrero</p>
+                </div>
+              </div>
+              <div class="card-time colorg85">
+                <div class="info">
+                  <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                  <p>del 20 al 25 de febrero</p>
+                </div>
+              </div>
+              <div class="card-time colorg85">
+                <div class="info">
+                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                  <p>del 2 al 29 de marzo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Bases -->
+  <div class="modal fade" id="bases" tabindex="-1" aria-labelledby="basesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="basesModalLabel">Bases</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="kit86/PL-SEP_Convo2026-G86-Bases.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-recursos" download>Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-recursos" download>Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal Guía aspirante -->
-<div class="modal fade" id="guiaAspirante" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+  <!-- Modal Guía aspirante -->
+  <div class="modal fade" id="guiaAspirante" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-recursos" download>Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-recursos" download>Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal Guía aspirante A-->
-<div class="modal fade" id="guiaAspiranteA" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+  <!-- Modal Guía aspirante A-->
+  <div class="modal fade" id="guiaAspiranteA" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="kit83/guia_aspirante_g83.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf" onclick="conteo_recurso(9,<?php echo $convoActivo ?>)">Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="kit83/guia_aspirante_g83.pdf" class="btn btn-recursos" download="guiaAspiranteG83.pdf" onclick="conteo_recurso(9,<?php echo $convoActivo ?>)">Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal Guía aspirante B-->
-<div class="modal fade" id="guiaAspiranteB" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+  <!-- Modal Guía aspirante B-->
+  <div class="modal fade" id="guiaAspiranteB" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="kit84/guia_aspirante_g84.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14,<?php echo $convoActivo ?>)">Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14,<?php echo $convoActivo ?>)">Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Modal Guía aspirante C-->
-<div class="modal fade" id="guiaAspiranteC" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row justify-content-center">
+  <!-- Modal Guía aspirante C-->
+  <div class="modal fade" id="guiaAspiranteC" tabindex="-1" aria-labelledby="guiaAspiranteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="guiaAspiranteModalLabel">Guía del aspirante</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row justify-content-center">
               <iframe class="pdf" src="kit85/guia_aspirante_g85.pdf"></iframe>
-          </div>
-          <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-11 text-center">
-              <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19,<?php echo $convoActivo ?>)">Descargar</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-12 col-md-11 text-center">
+                <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19,<?php echo $convoActivo ?>)">Descargar</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- video comprimir PDF-->
-<div class="modal fade" id="comprime" tabindex="-1" aria-labelledby="ModalLabel" style="display: none;" aria-hidden="true">
+  <!-- video comprimir PDF-->
+  <div class="modal fade" id="comprime" tabindex="-1" aria-labelledby="ModalLabel" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title">¿Cómo comprimir PDF?</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-12 text-center">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="short" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">¿Cómo comprimir PDF?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          <div class="container fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="short" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!-- video escanear en movil-->
-<div class="modal fade" id="escanea" tabindex="-1" aria-labelledby="ModalLabel" style="display: none;" aria-hidden="true">
+  <!-- video escanear en movil-->
+  <div class="modal fade" id="escanea" tabindex="-1" aria-labelledby="ModalLabel" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title">¿Cómo escanear documento desde el celular?</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-12 text-center">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="short" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title">¿Cómo escanear documento desde el celular?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          <div class="container fluid">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="short" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
   <!-- <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> --><!-- scrpt necesario para cagar el contenido del header y fooer -->
@@ -587,15 +588,15 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="clics_recursos/conteos.js"></script>
-     
-  <script>
-      jQuery('.modal').on('show.bs.modal', function(event) {
-          jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));
-      });
 
-      jQuery('.modal').on('hidden.bs.modal', function(e) {
-          jQuery(this).find('iframe').attr("src", "");
-      });
+  <script>
+    jQuery('.modal').on('show.bs.modal', function(event) {
+      jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));
+    });
+
+    jQuery('.modal').on('hidden.bs.modal', function(e) {
+      jQuery(this).find('iframe').attr("src", "");
+    });
   </script>
 </body>
 

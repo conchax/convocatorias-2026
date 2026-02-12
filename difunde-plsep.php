@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
+
     <!-- ... otros elementos ... -->
     <link rel="preload" as="image" href="assets/img/tour/guia-interactiva_start.gif">
     <link rel="preload" as="image" href="assets/img/tour/guia-interactiva_end.gif">
@@ -104,7 +106,7 @@
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/gq6SqOkr5og</p>
+                        <p id="videospot">https://youtu.be/DxQjGm_UaFY</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -341,10 +343,10 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    
+
     <!-- Slider instituciones -->
     <script type="text/javascript">
-        $(document).on('ready', function () {
+        $(document).on('ready', function() {
             $('.responsive').slick({
                 dots: true,
                 infinite: true,
@@ -354,28 +356,28 @@
                 slidesToShow: 8,
                 slidesToScroll: 4,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 6,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 6,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
                     }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3
-                    }
-                }
                     // You can unslick at a given breakpoint now by adding:
                     // settings: "unslick"
                     // instead of a settings object
@@ -613,24 +615,155 @@
             doneBtnText: 'Terminar',
             showProgress: true,
             progressText: ' {{current}} de {{total}}',
-            steps: [
-                { element: '#tour-example', popover: { title: ' Guía interactiva', description: '<img src="./assets/img/tour/guia-interactiva_start.gif" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.', showButtons: ['next', 'close'], side: "left", align: 'start' } },
-                { element: '.highlight', popover: { description: 'Fecha del periodo de registro de la convocatoria actual.', side: "bottom", align: 'end' } },
-                { element: '.recursos .uno', popover: { title: 'Bases', description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.', side: "bottom", align: 'start' } },
-                { element: '.recursos .dos', popover: { title: 'Infografía', description: 'Resumen visual del procedimiento, ideal para redes sociales.', side: "bottom", align: 'start' } },
-                { element: '.recursos .tres', popover: { title: 'Guía del aspirante', description: 'Material informativo para orientar a quienes desean registrarse.', side: "left", align: 'start' } },
-                { element: '.recursos .cuatro', popover: { title: 'Cartel', description: 'Imagen lista para publicar o imprimir, cuenta con la información principal.', side: "top", align: 'start' } },
-                { element: '.recursos .cinco', popover: { title: 'Mail', description: 'Recurso completo sugerido para difundir la convocatoria por correo electrónico.', side: "top", align: 'start' } },
-                { element: '.recursos .seis', popover: { title: 'Banner para portal', description: 'Imagen optimizada para colocar en páginas web o portales institucionales de la convocatoria abierta y la próxima.', side: "top", align: 'start' } },
-                { element: '.recursos .siete', popover: { title: 'Boletín', description: 'Contenido informativo para difundir en medios internos o digitales.', side: "top", align: 'start' } },
-                { element: '.recursos .ocho', popover: { title: 'Brochure  PL-SEP', description: 'Material institucional que explica el servicio de forma clara y atractiva.', side: "top", align: 'start' } },
-                { element: '.recursos .nueve', popover: { title: 'Descargar todo', description: 'Haz clic para descargar todos los materiales a la vez.', side: "top", align: 'start' } },
-                { element: '.r-uno', popover: { title: 'Video spot', description: ' Video corto, listo para compartir en redes sociales. Copia el enlace oficial del video para compartirlo donde quieras.', side: "top", align: 'start' } },
-                { element: '.r-dos', popover: { title: 'Hashtags', description: 'Úsalos para tu difusión y aumentar el alcance en redes. Copia los <em>hashtags</em> oficiales haciendo clic.', side: "top", align: 'start' } },
-                { element: '.r-tres', popover: { title: 'Copy sugerido', description: '<em>Copies</em> recomendados para acompañar tus publicaciones en redes sociales. Elige el de tu preferencia.', side: "top", align: 'start' } },
-                { element: '.l-one', popover: { description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.', side: "top", align: 'start' } },
-                { element: '.intituciones', popover: { description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.', side: "top", align: 'start' } },
-                { popover: { title: 'Terminó el recorrido.', description: '<img src="./assets/img/tour/guia-interactiva_end.gif" width="270" height="270"  />',showButtons: ['previous', 'close'] } }
+            steps: [{
+                    element: '#tour-example',
+                    popover: {
+                        title: ' Guía interactiva',
+                        description: '<img src="./assets/img/tour/guia-interactiva_start.gif" width="270" height="270"/>En este recorrido encontrarás todos los materiales oficiales para difundir la convocatoria en tus redes o sitio web. Todo listo para descargar y compartir.',
+                        showButtons: ['next', 'close'],
+                        side: "left",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.highlight',
+                    popover: {
+                        description: 'Fecha del periodo de registro de la convocatoria actual.',
+                        side: "bottom",
+                        align: 'end'
+                    }
+                },
+                {
+                    element: '.recursos .uno',
+                    popover: {
+                        title: 'Bases',
+                        description: 'Documento con las reglas y los lineamientos oficiales de la convocatoria.',
+                        side: "bottom",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .dos',
+                    popover: {
+                        title: 'Infografía',
+                        description: 'Resumen visual del procedimiento, ideal para redes sociales.',
+                        side: "bottom",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .tres',
+                    popover: {
+                        title: 'Guía del aspirante',
+                        description: 'Material informativo para orientar a quienes desean registrarse.',
+                        side: "left",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .cuatro',
+                    popover: {
+                        title: 'Cartel',
+                        description: 'Imagen lista para publicar o imprimir, cuenta con la información principal.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .cinco',
+                    popover: {
+                        title: 'Mail',
+                        description: 'Recurso completo sugerido para difundir la convocatoria por correo electrónico.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .seis',
+                    popover: {
+                        title: 'Banner para portal',
+                        description: 'Imagen optimizada para colocar en páginas web o portales institucionales de la convocatoria abierta y la próxima.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .siete',
+                    popover: {
+                        title: 'Boletín',
+                        description: 'Contenido informativo para difundir en medios internos o digitales.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .ocho',
+                    popover: {
+                        title: 'Brochure  PL-SEP',
+                        description: 'Material institucional que explica el servicio de forma clara y atractiva.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.recursos .nueve',
+                    popover: {
+                        title: 'Descargar todo',
+                        description: 'Haz clic para descargar todos los materiales a la vez.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.r-uno',
+                    popover: {
+                        title: 'Video spot',
+                        description: ' Video corto, listo para compartir en redes sociales. Copia el enlace oficial del video para compartirlo donde quieras.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.r-dos',
+                    popover: {
+                        title: 'Hashtags',
+                        description: 'Úsalos para tu difusión y aumentar el alcance en redes. Copia los <em>hashtags</em> oficiales haciendo clic.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.r-tres',
+                    popover: {
+                        title: 'Copy sugerido',
+                        description: '<em>Copies</em> recomendados para acompañar tus publicaciones en redes sociales. Elige el de tu preferencia.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.l-one',
+                    popover: {
+                        description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    element: '.intituciones',
+                    popover: {
+                        description: 'Conoce a las instituciones que ya forman parte de la red de aliados y apoyan la difusión de esta convocatoria.',
+                        side: "top",
+                        align: 'start'
+                    }
+                },
+                {
+                    popover: {
+                        title: 'Terminó el recorrido.',
+                        description: '<img src="./assets/img/tour/guia-interactiva_end.gif" width="270" height="270"  />',
+                        showButtons: ['previous', 'close']
+                    }
+                }
             ]
         });
 

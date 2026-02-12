@@ -93,7 +93,7 @@
                     <a href="kit86/PL-SEP_Convo2026-G86-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Boletin_institucional.pdf" class="btn btn-difunde siete" onclick="conteo_recurso(32)" download>Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/tu-futuro-te-esta-esperandounete-a-prepa-en-linea-sep/" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit86/PL-SEP_Convo2026-G86-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
@@ -122,7 +122,7 @@
                             <a type="button" class="btn-detalle" id="buttonhastag" onclick="conteo_recurso(36)">
                                 <svg width="22" height="18" class="me-2">
                                     <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
-                                </svg>Copiar enlace
+                                </svg>Copiar hashtags
                             </a>
                         </p>
                     </div>

@@ -27,6 +27,19 @@
     <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
+
+     <!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/difunde-plsep.php" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Convocatorias - 2026" />
+  <meta property="og:description" content="Recursos para compartir de las convocatoria 2026" />
+  <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Convocatorias - 2026" />
+  <meta name="twitter:description" content="Recursos para compartir de las convocatoria 2026" />
+  <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
 </head>
 
 <body>

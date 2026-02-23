@@ -90,8 +90,8 @@ $convoActivo = 12;
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
           <p class="tex-convo mb-4"> Generación 86</p>
-          <p class="tex-date ">Próximamente</p> <!-- del 23 de febrero al 4 de marzo -->
-          <p class="my-5 d-none"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
+          <p class="tex-date ">del 23 de febrero al 4 de marzo</p> <!-- Próximamente -->
+          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
         </div>
       </div>
       <div class="row justify-content-center">

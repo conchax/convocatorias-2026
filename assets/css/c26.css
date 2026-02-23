@@ -352,7 +352,7 @@ b{
 /* card-time container */
 .card-time {
   position: relative;
-  min-width: 375px;
+  min-width: 335px;
 }
 
 /* setting padding based on even or odd */

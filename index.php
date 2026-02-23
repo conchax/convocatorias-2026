@@ -90,8 +90,8 @@ $convoActivo = 12;
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
           <p class="tex-convo mb-4"> Generación 86</p>
-          <p class="tex-date ">Próximamente</p> <!-- del 23 de febrero al 4 de marzo -->
-          <p class="my-5 d-none"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
+          <p class="tex-date ">del 23 de febrero al 4 de marzo</p> <!-- Próximamente -->
+          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -391,13 +391,13 @@ $convoActivo = 12;
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 title-on" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                   <p>del 9 al 18 de febrero</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                  <a class="btn title colorg85 title-on" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                   <p>del 20 al 25 de febrero</p>
                 </div>
               </div>

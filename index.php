@@ -354,7 +354,7 @@ $convoActivo = 12;
               </div>
               <div class="card-time colorg84">
                 <div class="info">
-                  <a class="btn title title-on colorg84" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>
+                  <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>
                   <p>del 2 de febrero al 1 de marzo</p>
                 </div>
               </div>

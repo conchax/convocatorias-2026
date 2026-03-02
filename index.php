@@ -397,13 +397,13 @@ $convoActivo = 12;
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 title-on" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                  <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                   <p>del 20 al 25 de febrero</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                  <a class="btn title title-on colorg85 " data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                   <p>del 2 al 29 de marzo</p>
                 </div>
               </div>

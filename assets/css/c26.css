@@ -536,3 +536,38 @@ iframe.short {
     padding: 0;
     color: #2d2d2d!important;
 }
+
+ .element {
+  padding: 20px 40px;
+  position: relative;
+  color: var(--color-secun);
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(var(--gradient-angle), var(--color-primary), var(--color-secun));
+  animation: rotation 5s linear 0s infinite normal forwards;
+  border-radius: 20px;
+  z-index: 0;
+  text-align: center;
+  margin:0 auto;
+}
+.element::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background-color: var(--bg-fondo);
+  border-radius: 10px;
+  z-index: -1;
+}
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}

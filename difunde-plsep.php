@@ -60,7 +60,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4 d-none">
                 <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
                 </div>
@@ -73,18 +73,31 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 86</p>
+                    <p class="tex-convo"> Generación 87</p>
                     <hr class="line my-5">
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>23 de febrero al 4 de marzo</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>23 de marzo al 8 de abril</b></p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="recursos">
+    <section class="recursopausa">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 86 de Prepa en Línea-SEP.</p>
+                    <div class="element my-5">
+                        Estreno 23 de marzo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recursos d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
@@ -618,7 +631,7 @@
     </script>
 
     <!-- tour    -->
-    <script>
+    <!-- <script>
         const driver = window.driver.js.driver;
 
         const driverObj = driver({
@@ -785,7 +798,7 @@
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
         });
-    </script>
+    </script> -->
 </body>
 
 </html>

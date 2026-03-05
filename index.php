@@ -1,17 +1,17 @@
 <?php
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
-$secA = 9;
-$secB = 10;
-$secC = 11;
-$convoActivo = 12;
+$secA = 10;
+$secB = 11;
+$secC = 12;
+$convoActivo = 13;
 
-/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo86prox") {
+if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo87prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-} */
+}
 ?>
 <!doctype html>
 <html lang="es">
@@ -89,13 +89,13 @@ $convoActivo = 12;
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
-          <p class="tex-convo mb-4"> Generación 86</p>
-          <p class="tex-date ">del 23 de febrero al 4 de marzo</p> <!-- Próximamente -->
-          <p class="my-5"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
+          <p class="tex-convo mb-4"> Generación 87</p>
+          <p class="tex-date ">Próximamente</p> <!-- del 23 de marzo al 8 de abril -->
+          <p class="my-5 d-none"><a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" class="btn-r" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)">Regístrate aquí</a></p>
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-2 text-center mb-4">
+        <div class="col-md-2 text-center mb-4 d-none">
           <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup" onclick="conteo_recurso(5,<?php echo $convoActivo ?>)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
@@ -104,7 +104,7 @@ $convoActivo = 12;
         </div>
 
 
-        <div class="col-md-2 text-center mb-3">
+        <div class="col-md-2 text-center mb-3 d-none">
           <a type="button" data-bs-toggle="modal" data-bs-target="#guiaAspirante" class="btn-cta-popup" onclick="conteo_recurso(6,<?php echo $convoActivo ?>)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
@@ -164,7 +164,7 @@ $convoActivo = 12;
           </p>
         </div>
         <div class="col-md-3 text-center">
-          <p><img src="assets/img/i84.png" alt="generación 84"></p>
+          <p><img src="assets/img/i85.png" alt="generación 85"></p>
           <p>
             <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoB">
               <svg width="16" height="12" class="me-2">
@@ -181,7 +181,7 @@ $convoActivo = 12;
           </p>
         </div>
         <div class="col-md-3 text-center">
-          <p><img src="assets/img/i85.png" alt="generación 85"></p>
+          <p><img src="assets/img/i86.webp" height="200" alt="generación 86"></p>
           <p>
             <a type="button" class="btn-detalle" data-bs-toggle="modal" data-bs-target="#sigueprocesoC">
               <svg width="16" height="12" class="me-2">
@@ -328,34 +328,34 @@ $convoActivo = 12;
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-md-10">
-                <p class="title-modal d-flex align-items-center">Generación <span class="colorg84">84</span></p>
+                <p class="title-modal d-flex align-items-center">Generación <span class="colorg85">85</span></p>
               </div>
             </div>
           </div>
           <div class="timeline">
             <div class="outer">
-              <div class="card-time colorg84">
+              <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg84 disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(15,<?php echo $secB; ?>)">Obtener tus claves de acceso</a>
-                  <p>del 9 al 11 de enero</p>
+                  <a class="btn title colorg85 disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(15,<?php echo $secB; ?>)">Obtener tus claves de acceso</a>
+                  <p>del 6 al 8 de febrero</p>
                 </div>
               </div>
-              <div class="card-time colorg84">
+              <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(16,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
-                  <p>del 12 al 21 de enero</p>
+                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(16,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
+                  <p>del 9 al 18 de febrero</p>
                 </div>
               </div>
-              <div class="card-time colorg84">
+              <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg84 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
-                  <p>del 23 al 28 de enero</p>
+                  <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
+                  <p>del 20 al 25 de febrero</p>
                 </div>
               </div>
-              <div class="card-time colorg84">
+              <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg84 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>
-                  <p>del 2 de febrero al 1 de marzo</p>
+                  <a class="btn title colorg85 title-on" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo 1</a>
+                  <p>del 2 al 29 de marzo</p>
                 </div>
               </div>
             </div>
@@ -377,7 +377,7 @@ $convoActivo = 12;
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-md-10">
-                <p class="title-modal d-flex align-items-center">Generación <span class="colorg85">85</span></p>
+                <p class="title-modal d-flex align-items-center">Generación <span class="colorg85">86</span></p>
               </div>
             </div>
           </div>
@@ -386,25 +386,25 @@ $convoActivo = 12;
               <div class="card-time colorg85">
                 <div class="info">
                   <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
-                  <p>del 6 al 8 de febrero</p>
+                  <p>del 6 al 8 de marzo</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
                   <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
-                  <p>del 9 al 18 de febrero</p>
+                  <p>del 9 al 18 de marzo</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
                   <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
-                  <p>del 20 al 25 de febrero</p>
+                  <p>del 20 al 25 de marzo</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title title-on colorg85 " data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
-                  <p>del 2 al 29 de marzo</p>
+                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                  <p>del 6 de abril al 3 de mayo</p>
                 </div>
               </div>
             </div>

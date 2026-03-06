@@ -28,18 +28,18 @@
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
 
-     <!-- You can use Open Graph tags to customize link previews.
+    <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-  <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/difunde-plsep.php" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Convocatorias - 2026" />
-  <meta property="og:description" content="Recursos para compartir de las convocatoria 2026" />
-  <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
+    <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/difunde-plsep.php" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Convocatorias - 2026" />
+    <meta property="og:description" content="Recursos para compartir de las convocatoria 2026" />
+    <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Convocatorias - 2026" />
-  <meta name="twitter:description" content="Recursos para compartir de las convocatoria 2026" />
-  <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Convocatorias - 2026" />
+    <meta name="twitter:description" content="Recursos para compartir de las convocatoria 2026" />
+    <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/convocatorias-2026/assets/img/card-convo.png" />
 </head>
 
 <body>
@@ -88,9 +88,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 86 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 87 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
-                        Estreno 23 de marzo
+                        Próximamente
                     </div>
                 </div>
             </div>

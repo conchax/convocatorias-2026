@@ -6,12 +6,12 @@ $secB = 11;
 $secC = 12;
 $convoActivo = 13;
 
-if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo87prox") {
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo87prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-}
+} */
 ?>
 <!doctype html>
 <html lang="es">
@@ -385,7 +385,7 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
             <div class="outer">
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
+                  <a class="btn title colorg85 title-on" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
                   <p>del 6 al 8 de marzo</p>
                 </div>
               </div>
@@ -497,11 +497,11 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <iframe class="pdf" src="kit84/guia_aspirante_g84.pdf"></iframe>
+              <iframe class="pdf" src="kit85/guia_aspirante_g85.pdf"></iframe>
             </div>
             <div class="row justify-content-center mt-4">
               <div class="col-12 col-md-11 text-center">
-                <a href="kit84/guia_aspirante_g84.pdf" class="btn btn-recursos" download="guiaAspiranteG84.pdf" onclick="conteo_recurso(14,<?php echo $convoActivo ?>)">Descargar</a>
+                <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(14,<?php echo $convoActivo ?>)">Descargar</a>
               </div>
             </div>
           </div>
@@ -521,11 +521,11 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <iframe class="pdf" src="kit85/guia_aspirante_g85.pdf"></iframe>
+              <iframe class="pdf" src="kit-86/guia_aspirante_g86.pdf"></iframe>
             </div>
             <div class="row justify-content-center mt-4">
               <div class="col-12 col-md-11 text-center">
-                <a href="kit85/guia_aspirante_g85.pdf" class="btn btn-recursos" download="guiaAspiranteG85.pdf" onclick="conteo_recurso(19,<?php echo $convoActivo ?>)">Descargar</a>
+                <a href="kit-86/guia_aspirante_g86.pdf" class="btn btn-recursos" download="guiaAspiranteG86.pdf" onclick="conteo_recurso(19,<?php echo $convoActivo ?>)">Descargar</a>
               </div>
             </div>
           </div>

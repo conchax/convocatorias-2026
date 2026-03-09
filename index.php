@@ -385,13 +385,13 @@ $convoActivo = 13;
             <div class="outer">
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 title-on" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
+                  <a class="btn title colorg85 disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(20,<?php echo $secC; ?>)">Obtener tus claves de acceso</a>
                   <p>del 6 al 8 de marzo</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                  <a class="btn title colorg85 title-on" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                   <p>del 9 al 18 de marzo</p>
                 </div>
               </div>

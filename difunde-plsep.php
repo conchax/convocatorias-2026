@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026">
+                    <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026"/>
                 </div>
             </div>
             <div class="row mt-4 justify-content-center">
@@ -74,7 +74,7 @@
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
                     <p class="tex-convo"> Generación 87</p>
-                    <hr class="line my-5">
+                    <hr class="line my-5"/>
                 </div>
                 <div class="col-12 text-center">
                     <p class="tex-date highlight">Periodo de registro del <b>23 de marzo al 8 de abril</b></p>
@@ -84,7 +84,7 @@
         </div>
     </section>
 
-    <section class="recursopausa">
+    <section class="recursopausa d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -97,35 +97,35 @@
         </div>
     </section>
 
-    <section class="recursos d-none">
+    <section class="recursos">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3 d-none">
                     <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/tu-futuro-te-esta-esperandounete-a-prepa-en-linea-sep/" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="#" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-87/PL-SEP_Convo2026-G87-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
@@ -157,8 +157,8 @@
                     <div class="rec r-tres text-center">
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
-                            <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆 Regístrate del 23 de febrero al
-                                    4 de marzo. <a href="#"
+                            <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆 Regístrate del 23 de marzo al
+                                    8 de abril. <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopy" class="btn-detalle" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
@@ -167,7 +167,7 @@
                                 </a>
                             </li>
                             <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪 Del
-                                    23 de febrero al 4 de marzo regístrate en <a href="#"
+                                    23 de marzo al 8 de abril regístrate en <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
@@ -176,7 +176,7 @@
                                 </a>
                             </li>
                             <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀 Regístrate
-                                    del 23 de febrero al 4 de marzo. <a href="#"
+                                    del 23 de marzo al 8 de abril. <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">

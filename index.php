@@ -95,7 +95,7 @@ $convoActivo = 13;
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-2 text-center mb-4 d-none">
+        <div class="col-md-2 text-center mb-4">
           <a type="button" data-bs-toggle="modal" data-bs-target="#bases" class="btn-cta-popup" onclick="conteo_recurso(5,<?php echo $convoActivo ?>)">
             <svg width="11" height="13">
               <use xlink:href="./assets/img/sprite.svg#icono-arrow"></use>
@@ -425,11 +425,11 @@ $convoActivo = 13;
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <iframe class="pdf" src="kit86/PL-SEP_Convo2026-G86-Bases.pdf"></iframe>
+              <iframe class="pdf" src="kit-87/PL-SEP_Convo2026-G87-Bases.pdf"></iframe>
             </div>
             <div class="row justify-content-center mt-4">
               <div class="col-12 col-md-11 text-center">
-                <a href="kit86/PL-SEP_Convo2026-G86-Bases.pdf" class="btn btn-recursos" download>Descargar</a>
+                <a href="kit-87/PL-SEP_Convo2026-G87-Bases.pdf" class="btn btn-recursos" download>Descargar</a>
               </div>
             </div>
           </div>

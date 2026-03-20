@@ -24,7 +24,7 @@
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
-    <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
+     <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
 
@@ -60,7 +60,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4 d-none">
+            <div class="row justify-content-center mt-4">
                 <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
                 </div>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
-                </div>
+                </div> 
                 <div class="col-md-4 mb-3">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
@@ -360,7 +360,7 @@
     <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
     <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
     <!-- scrpt necesario para cagar el contenido del header y fooer -->
-    <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
+      <script src="https://prepaenlinea.sep.gob.mx/assets/menu.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -631,7 +631,7 @@
     </script>
 
     <!-- tour    -->
-    <!-- <script>
+    <script>
         const driver = window.driver.js.driver;
 
         const driverObj = driver({
@@ -677,7 +677,7 @@
                         align: 'start'
                     }
                 },
-                {
+               /*  {
                     element: '.recursos .tres',
                     popover: {
                         title: 'Guía del aspirante',
@@ -685,7 +685,7 @@
                         side: "left",
                         align: 'start'
                     }
-                },
+                }, */
                 {
                     element: '.recursos .cuatro',
                     popover: {
@@ -798,7 +798,7 @@
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
         });
-    </script> -->
+    </script>
 </body>
 
 </html>

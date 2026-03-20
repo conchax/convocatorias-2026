@@ -19,6 +19,7 @@ $convoActivo = 13;
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=https://registro.prepaenlinea.sep.gob.mx/registro">
   <title>Convocatorias 2026</title>
   <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -391,13 +392,13 @@ $convoActivo = 13;
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 title-on" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                  <a class="btn title colorg85 disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(21,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                   <p>del 9 al 18 de marzo</p>
                 </div>
               </div>
               <div class="card-time colorg85">
                 <div class="info">
-                  <a class="btn title colorg85 disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                  <a class="btn title colorg85 title-on" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                   <p>del 20 al 25 de marzo</p>
                 </div>
               </div>

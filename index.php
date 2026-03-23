@@ -19,7 +19,7 @@ $convoActivo = 13;
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=https://registro.prepaenlinea.sep.gob.mx/registro">
+  <meta http-equiv="refresh" content="0; URL=https://registro.prepaenlinea.sep.gob.mx/" />
   <title>Convocatorias 2026</title>
   <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">

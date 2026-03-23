@@ -24,7 +24,7 @@
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
-     <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
+    <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
     <link href="assets/css/c26.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
 
@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026"/>
+                    <img src="assets/img/logo.png" class="img-fluid" alt="convocatorias 2026" />
                 </div>
             </div>
             <div class="row mt-4 justify-content-center">
@@ -74,7 +74,7 @@
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
                     <p class="tex-convo"> Generación 87</p>
-                    <hr class="line my-5"/>
+                    <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
                     <p class="tex-date highlight">Periodo de registro del <b>23 de marzo al 8 de abril</b></p>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
-                </div> 
+                </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
@@ -121,7 +121,7 @@
                 <div class="col-md-4 mb-3">
                     <a href="#" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div class="col-md-4 mb-3 d-none">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
@@ -157,8 +157,7 @@
                     <div class="rec r-tres text-center">
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
-                            <li><span id="copy">Estás a un clic de cambiar tu futuro. 👆 Regístrate del 23 de marzo al
-                                    8 de abril. <a href="#"
+                            <li><span id="copy">¿Y si este fuera el inicio que estabas esperando? 👀 ✨ Regístrate del 23 de marzo al 8 de abril en<a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopy" class="btn-detalle" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
@@ -166,8 +165,7 @@
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            <li><span id="copyd">El primer paso es el que más cuesta pero el que lo cambia todo. 💪 Del
-                                    23 de marzo al 8 de abril regístrate en <a href="#"
+                            <li><span id="copyd">⏰ El tiempo pasa… tú decides cómo usarlo. Del 23 de marzo al 8 de abril será tu momento. Regístrate en <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
@@ -175,8 +173,7 @@
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            <li><span id="copyt">No lo pienses más, tienes la oportunidad ante tus ojos. 👀 Regístrate
-                                    del 23 de marzo al 8 de abril. <a href="#"
+                            <li><span id="copyt">💪 Decidir también es avanzar. Da el primer paso del 23 de marzo al 8 de abril al registrarte en <a href="#"
                                         class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
@@ -360,7 +357,7 @@
     <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
     <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
     <!-- scrpt necesario para cagar el contenido del header y fooer -->
-      <script src="https://prepaenlinea.sep.gob.mx/assets/menu.min.js"></script>
+    <script src="https://prepaenlinea.sep.gob.mx/assets/menu.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
@@ -677,15 +674,15 @@
                         align: 'start'
                     }
                 },
-               /*  {
-                    element: '.recursos .tres',
-                    popover: {
-                        title: 'Guía del aspirante',
-                        description: 'Material informativo para orientar a quienes desean registrarse.',
-                        side: "left",
-                        align: 'start'
-                    }
-                }, */
+                /*  {
+                     element: '.recursos .tres',
+                     popover: {
+                         title: 'Guía del aspirante',
+                         description: 'Material informativo para orientar a quienes desean registrarse.',
+                         side: "left",
+                         align: 'start'
+                     }
+                 }, */
                 {
                     element: '.recursos .cuatro',
                     popover: {
@@ -722,7 +719,7 @@
                         align: 'start'
                     }
                 },
-                {
+                /* {
                     element: '.recursos .ocho',
                     popover: {
                         title: 'Brochure  PL-SEP',
@@ -730,7 +727,7 @@
                         side: "top",
                         align: 'start'
                     }
-                },
+                }, */
                 {
                     element: '.recursos .nueve',
                     popover: {

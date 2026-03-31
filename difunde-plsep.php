@@ -119,7 +119,7 @@
                     <a href="kit-87/PL-SEP_Convo2026-G87-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="#" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/mujeres-que-aprenden-convocatoria-de-la-generacion-87/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3 d-none">
                     <a href="kit-87/PL-SEP_Convo2026-G87-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
@@ -132,7 +132,7 @@
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/DxQjGm_UaFY</p>
+                        <p id="videospot">https://youtu.be/JlUT-D3PRzE?si=14Gyb7xlC2Bw3yQf</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">

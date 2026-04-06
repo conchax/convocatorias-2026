@@ -73,11 +73,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 87</p>
+                    <p class="tex-convo"> Generación 88</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>23 de marzo al 8 de abril</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>27 de abril al 6 de mayo</b></p>
                 </div>
             </div>
 
@@ -101,38 +101,38 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
-                </div>
-                <div class="col-md-4 mb-3 d-none">
-                    <a href="kit86/PL-SEP_Convo2026-G86-Guia_del_aspirante.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Infografía.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-88/guia_aspirante_g88.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/mujeres-que-aprenden-convocatoria-de-la-generacion-87/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
-                </div>
-                <div class="col-md-4 mb-3 d-none">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-87/PL-SEP_Convo2026-G87-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/superacion-sin-fronteras-integrate-a-la-generacion-88/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="kit-88/PL-SEP_Convo2026-G88-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/JlUT-D3PRzE?si=14Gyb7xlC2Bw3yQf</p>
+                        <p id="videospot"> https://youtu.be/hzv9JwTbogM</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -157,24 +157,27 @@
                     <div class="rec r-tres text-center">
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
-                            <li><span id="copy">¿Y si este fuera el inicio que estabas esperando? 👀 ✨ Regístrate del 23 de marzo al 8 de abril en<a href="#"
-                                        class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+
+                            <li><span id="copy">¿Y si este ¿Listo para terminar tu bachillerato sin importar dónde estés? 🚀 Dentro o fuera de México, integra el estudio a tu vida con la flexibilidad de horarios de Prepa en Línea-SEP. Tu meta, a tu propio ritmo. 🎓🎯 Regístrate del 27 de abril al 6 de mayo 👇<a href="#"
+                                        class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
                                 <a type="button" id="buttoncopy" class="btn-detalle" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            <li><span id="copyd">⏰ El tiempo pasa… tú decides cómo usarlo. Del 23 de marzo al 8 de abril será tu momento. Regístrate en <a href="#"
-                                        class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+                            
+                            <li><span id="copyd">¿Sabías que la comunidad de Prepa en Línea-SEP cruza fronteras? ✈️ Más de 1,000 personas ya estudian desde el extranjero. Únete y alcanza tu meta con un modelo que se adapta totalmente a tu ubicación y ritmo de vida. 🎓🌍 Regístrate del 27 de abril al 6 de mayo 👇<a href="#"
+                                        class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            <li><span id="copyt">💪 Decidir también es avanzar. Da el primer paso del 23 de marzo al 8 de abril al registrarte en <a href="#"
-                                        class="link text-break">https://prepaenlinea.sep.gob.mx/convocatorias-2026</a></span><br>
+                            
+                            <li><span id="copyt">¡Súmate a la comunidad de Prepa en Línea-SEP! 🎓 Estudia tu bachillerato sin importar dónde estés y construye un futuro académico y profesional diseñado a tu medida. ✨ Regístrate del 27 de abril al 6 de mayo 👇 <a href="#"
+                                        class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -674,7 +677,7 @@
                         align: 'start'
                     }
                 },
-                /*  {
+                 {
                      element: '.recursos .tres',
                      popover: {
                          title: 'Guía del aspirante',
@@ -682,7 +685,7 @@
                          side: "left",
                          align: 'start'
                      }
-                 }, */
+                 },
                 {
                     element: '.recursos .cuatro',
                     popover: {
@@ -719,7 +722,7 @@
                         align: 'start'
                     }
                 },
-                /* {
+                {
                     element: '.recursos .ocho',
                     popover: {
                         title: 'Brochure  PL-SEP',
@@ -727,7 +730,7 @@
                         side: "top",
                         align: 'start'
                     }
-                }, */
+                },
                 {
                     element: '.recursos .nueve',
                     popover: {

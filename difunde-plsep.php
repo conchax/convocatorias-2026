@@ -1,3 +1,11 @@
+<?php
+if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo88prox") {
+    header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'Authorization Required To Server.';
+    exit;
+}
+?>
 <!doctype html>
 <html lang="es">
 

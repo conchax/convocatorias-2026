@@ -32,8 +32,8 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
-    <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
     <link href="assets/css/c26.css" rel="stylesheet">
+    <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
     <!-- <link href="http://10.3.29.145/wp-content/themes/plsep25/css/pls.min.css" rel="stylesheet"> -->
 
     <!-- You can use Open Graph tags to customize link previews.

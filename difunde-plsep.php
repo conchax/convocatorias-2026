@@ -1,10 +1,10 @@
 <?php
-/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo89prox") {
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo90prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
-    exit;
-} */
+    exit; 
+}*/
 ?>
 <!doctype html>
 <html lang="es">
@@ -24,6 +24,8 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
@@ -31,7 +33,7 @@
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- tour -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css" />
     <link href="assets/css/c26.css" rel="stylesheet">
     <link href="https://prepaenlinea.sep.gob.mx/assets/menu.min.css" rel="stylesheet">
 
@@ -80,11 +82,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 89</p>
+                    <p class="tex-convo"> Generación 90</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>25 de mayo al 3 de junio</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>22 de junio al 1 de julio</b></p>
                 </div>
             </div>
 
@@ -108,38 +110,38 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/guia_aspirante_g89.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
+                    <a href="kit-90/guia_aspirante_g90.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/tu-aula-te-espera-convocatoria-de-la-generacion-89/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/estudio-mas-trabajo-igual-a-mejores-oportunidades-sumate-a-la-generacion-90/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-89/PL-SEP_Convo2026-G89-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-90/PL-SEP_Convo2026-G90-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot"> https://youtu.be/6_o5j8WdmiI</p>
+                        <p id="videospot"> https://youtu.be/L6cjgcOYszE</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -165,36 +167,35 @@
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
 
-                            <li><span id="copy">💻✨ Prepa en Línea-SEP se adapta a tu ritmo para que puedas concluir tu bachillerato.<br>
-                                🔗 Regístrate del 25 de mayo al 3 de junio en
-                                <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración89 <br>
+                            <li><span id="copy">🗓️✨ Todo comienza con una decisión. <br> Del 22 de junio al 1 de julio puede ser el inicio de algo grande para ti en Prepa en Línea-SEP.<br>
+                                    👉 Regístrate en
+                                    <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
+                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            
-                            <li><span id="copyd">💻✨ Entre el trabajo, la familia y los pendientes, estudiar en Prepa en Línea-SEP se adapta a tu vida para que tú sigas avanzando. <br>
-                                👉 Regístrate en Prepa en Línea-SEP y cumple tu meta:<br>
-                                <a href="https://registro.prepaenlinea.sep.gob.mx/"
+
+                            <li><span id="copyd">🚀 Tu momento es ahora. <br>
+                                    Del 22 de junio al 1 de julio, da el siguiente paso y comienza a transformar tu historia en Prepa en Línea-SEP.<br>
+                                    👉 Regístrate en<br>
+                                    <a href="https://registro.prepaenlinea.sep.gob.mx/"
                                         target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración89 <br>
+                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle mb-3" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
                                     </svg>Copiar copy
                                 </a>
                             </li>
-                            
-                            <li><span id="copyt"> En Prepa en Línea-SEP puedes encontrar:<br>
-                                ● Una prepa que te acompaña <br>
-                                ● Recursos y actividades semanales <br>
-                                ● Una comunidad que avanza contigo <br>
-                                🔗 Regístrate en <a href="https://registro.prepaenlinea.sep.gob.mx/"
+
+                            <li><span id="copyt"> ⏰ El tiempo no se detiene, y tus metas tampoco deberían.<br>
+                                    Del 22 de junio al 1 de julio, regístrate en Prepa en Línea-SEP. 👇<br>
+                                    <a href="https://registro.prepaenlinea.sep.gob.mx/"
                                         target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                        #Convocatorias2026PLSEP #PLSEPGeneración89 <br>
+                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle mb-3" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -375,12 +376,14 @@
     <!-- Logos -->
 
     <div id="footerPLS"></div> <!-- etiqueta para q se visualice el footer -->
-    <!--   <script src="http://10.3.29.145/wp-content/themes/plsep25/js/pls.min.js"></script> -->
-    <!-- scrpt necesario para cagar el contenido del header y fooer -->
+
     <script src="https://prepaenlinea.sep.gob.mx/assets/menu.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <!-- <script src="bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="clics_recursos/conteos.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -694,15 +697,15 @@
                         align: 'start'
                     }
                 },
-                 {
-                     element: '.recursos .tres',
-                     popover: {
-                         title: 'Guía del aspirante',
-                         description: 'Material informativo para orientar a quienes desean registrarse.',
-                         side: "left",
-                         align: 'start'
-                     }
-                 },
+                {
+                    element: '.recursos .tres',
+                    popover: {
+                        title: 'Guía del aspirante',
+                        description: 'Material informativo para orientar a quienes desean registrarse.',
+                        side: "left",
+                        align: 'start'
+                    }
+                },
                 {
                     element: '.recursos .cuatro',
                     popover: {

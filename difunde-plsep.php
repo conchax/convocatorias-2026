@@ -110,13 +110,13 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-90/Bases_g90.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-90/PL-SEP_Convo2026-G90-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/guia_aspirante_g90.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía del aspirante</a>
+                    <a href="kit-90/guia_aspirante_g90.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-90/PL-SEP_Convo2026-G90-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>

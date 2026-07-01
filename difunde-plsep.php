@@ -5,7 +5,7 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
     echo 'Authorization Required To Server.';
     exit; 
 }
-?>
+?> 
 <!doctype html>
 <html lang="es">
 
@@ -167,7 +167,7 @@ if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "conv
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
 
-                            <li><span id="copy">El bachillerato que buscas está en la plataforma que necesitas.<br>El 99 % de nuestra comunidad destaca lo fácil que es navegar y usar sus herramientas, para que puedas enfocarte en lo más importante: tu aprendizaje.<br>
+                            <li><span id="copy">El bachillerato que buscas está en la plataforma que necesitas.<br>El 99 % de nuestra comunidad destaca lo fácil que es navegar y usar sus herramientas para que puedas enfocarte en lo más importante: tu aprendizaje.<br>
                                     👉 Regístrate en
                                     <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
                                 #Convocatorias2026PLSEP <br>

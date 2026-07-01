@@ -1,10 +1,10 @@
 <?php
-/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo90prox") {
+if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo91prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit; 
-}*/
+}
 ?>
 <!doctype html>
 <html lang="es">
@@ -82,11 +82,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 90</p>
+                    <p class="tex-convo"> Generación 91</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>22 de junio al 1 de julio</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>27 de julio al 5 de agosto</b></p>
                 </div>
             </div>
 
@@ -110,38 +110,38 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/Bases_g90.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Infografía.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/guia_aspirante_g90.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
+                    <a href="kit-91/guia_aspirante_g91.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/estudio-mas-trabajo-igual-a-mejores-oportunidades-sumate-a-la-generacion-90/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/formacion-integral-para-tu-futuro-convocatoria-de-la-generacion-91/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G91-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-90/PL-SEP_Convo2026-G90-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-91/PL-SEP_Convo2026-G90-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot"> https://youtu.be/L6cjgcOYszE</p>
+                        <p id="videospot">https://youtu.be/bayoKNdCMAk</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -167,10 +167,10 @@
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
 
-                            <li><span id="copy">🗓️✨ Todo comienza con una decisión. <br> Del 22 de junio al 1 de julio puede ser el inicio de algo grande para ti en Prepa en Línea-SEP.<br>
+                            <li><span id="copy">El bachillerato que buscas está en la plataforma que necesitas.<br>El 99 % de nuestra comunidad destaca lo fácil que es navegar y usar sus herramientas, para que puedas enfocarte en lo más importante: tu aprendizaje.<br>
                                     👉 Regístrate en
                                     <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
+                                #Convocatorias2026PLSEP <br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -178,12 +178,11 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyd">🚀 Tu momento es ahora. <br>
-                                    Del 22 de junio al 1 de julio, da el siguiente paso y comienza a transformar tu historia en Prepa en Línea-SEP.<br>
-                                    👉 Regístrate en<br>
+                            <li><span id="copyd">Navega con facilidad y organiza tus actividades con las herramientas digitales de Prepa en Línea-SEP. Una experiencia diseñada para que te concentres en tu aprendizaje. 🎓🎯 <br>
+                                    Regístrate del 27 de julio al 5 de agosto 👇<br>                                    
                                     <a href="https://registro.prepaenlinea.sep.gob.mx/"
                                         target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
+                                #Convocatorias2026PLSEP<br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle mb-3" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -191,11 +190,12 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyt"> ⏰ El tiempo no se detiene, y tus metas tampoco deberían.<br>
-                                    Del 22 de junio al 1 de julio, regístrate en Prepa en Línea-SEP. 👇<br>
+                            <li><span id="copyt"> ¡Súmate a la comunidad de Prepa en Línea-SEP! 🎓<br>
+                                    Estudia tu bachillerato en una plataforma ideal para un aprendizaje fluido. ✨<br>
+                                    Regístrate del 27 de julio al 5 de agosto 👇 <br>
                                     <a href="https://registro.prepaenlinea.sep.gob.mx/"
                                         target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración90 <br>
+                                #Convocatorias2026PLSEP <br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle mb-3" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>

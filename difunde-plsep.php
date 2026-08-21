@@ -113,7 +113,7 @@
                     <a href="kit-92/PL-SEP_Convo2026-G92-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Infografiia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-92/PL-SEP_Convo2026-G92-Infografía.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-92/guia_aspirante_g92.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>

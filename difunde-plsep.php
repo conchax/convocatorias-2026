@@ -1,5 +1,5 @@
 <?php
-/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo92prox") {
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo93prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
@@ -82,11 +82,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 92</p>
+                    <p class="tex-convo"> Generación 93</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>24 de agosto al 2 de septiembre</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>21  al 30 de septiembre</b></p>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 87 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 93 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
                         Próximamente
                     </div>
@@ -110,38 +110,38 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Infografía.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/guia_aspirante_g92.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
+                    <a href="kit-93/guia_aspirante_g93.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/estudiar-en-linea-avanzar-sin-limites-sumate-a-la-generacion-92/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/estudio-mas-trabajo-igual-a-mejores-oportunidades-convocatoria-para-la-generacion-93/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-92/PL-SEP_Convo2026-G92-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-93/PL-SEP_Convo2026-G93-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/ejgGvbQNyBA</p>
+                        <p id="videospot">https://youtu.be/ozNais3lJSc</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -167,9 +167,8 @@
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis">
 
-                            <li><span id="copy">📚✨ En Prepa en Línea-SEP la educación sigue avanzando contigo, a tu ritmo y en tu realidad.<br>🔗 Regístrate del 24 de agosto al 2 de septiembre en <br>
-                                    <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración92 <br>
+                            <li><span id="copy">🌿Cada historia, cultura y lengua hacen más grande nuestra comunidad.<br>Del 21 al 30 de septiembre, forma parte de Prepa en Línea-SEP, donde 6,143 voces orgullosamente indígenas enriquecen nuestros espacios con identidad, conocimiento y diversidad. 💻<br>                                    
+                                #Convocatorias2026PLSEP #DiversidadQueEnriquece <br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -177,10 +176,8 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyd">✅ Estudiar y seguir avanzando sí es posible en Prepa en Línea-SEP.<br> 🔗 Regístrate del 24 de agosto al 2 de septiembre y cumple tu meta en <br>
-                                    <a href="https://registro.prepaenlinea.sep.gob.mx/"
-                                        target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración92<br>
+                            <li><span id="copyd">🌎 Tu historia, tus raíces y tu voz también forman parte del cambio.<br> Del 21 al 30 de septiembre, únete a la comunidad y enriquécete de cada espacio con diversidad, cultura y nuevas perspectivas. 💻<br>                                    
+                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle mb-3" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -188,11 +185,10 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyt"> 💻✨ En Prepa en Línea-SEP estudiar se adapta a tu realidad.<br>
-                                    🔗 Regístrate del 24 de agosto al 2 de septiembre en <br>
-                                    <a href="https://registro.prepaenlinea.sep.gob.mx/"
-                                        target="_blank" class="link text-break">https://registro.prepaenlinea.sep.gob.mx/</a></span><br>
-                                #Convocatorias2026PLSEP #PLSEPGeneración92 <br>
+                            <li><span id="copyt">⏰ La diversidad sigue creciendo, y tu historia también puede ser parte de ella.<br>
+                                    Del 21 al 30 de septiembre, súmate a una comunidad donde 6,143 voces orgullosamente indígenas enriquecen cada experiencia con cultura, identidad y conocimiento. 🌎💻<br>
+                                En Prepa en Línea-SEP cada voz cuenta. <br>
+                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle mb-3" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>

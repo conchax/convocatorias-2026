@@ -82,11 +82,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 93</p>
+                    <p class="tex-convo"> Generación 94</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>21  al 30 de septiembre</b></p>
+                    <p class="tex-date highlight">Periodo de registro del <b>19  al 28 de octubre</b></p>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 93 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 94 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
                         Próximamente
                     </div>
@@ -110,38 +110,38 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/guia_aspirante_g93.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
+                    <a href="kit-94/guia_aspirante_g94.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="https://prepaenlinea.sep.gob.mx/estudio-mas-trabajo-igual-a-mejores-oportunidades-convocatoria-para-la-generacion-93/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-93/PL-SEP_Convo2026-G93-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-94/PL-SEP_Convo2026-G94-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/ozNais3lJSc</p>
+                        <p id="videospot">https://youtu.be/VAfExV67zo4</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -152,7 +152,7 @@
                     </div>
                     <div class="rec r-dos text-center mb-3">
                         <p><b>Hashtags</b></p>
-                        <p class="txt-copis" id="hastag">#Convocatorias2026PLSEP<br> #DifundePLSEP</p>
+                        <p  id="hastag">#Convocatorias2026PLSEP<br> #DifundePLSEP</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonhastag" onclick="conteo_recurso(36)">
                                 <svg width="22" height="18" class="me-2">
@@ -165,10 +165,13 @@
                 <div class="col-md-6">
                     <div class="rec r-tres text-center">
                         <p><b>Copy sugerido</b></p>
-                        <ol class="txt-copis">
+                        <ol class="txt-copis fs-6">
 
-                            <li><span id="copy">🌿Cada historia, cultura y lengua hacen más grande nuestra comunidad.<br>Del 21 al 30 de septiembre, forma parte de Prepa en Línea-SEP, donde 6,143 voces orgullosamente indígenas enriquecen nuestros espacios con identidad, conocimiento y diversidad. 💻<br>                                    
-                                #Convocatorias2026PLSEP #DiversidadQueEnriquece <br>
+                            <li><span id="copy">La meta de terminar tu bachillerato está a tu alcance. 💻🎯<br>  
+                                Únete a una comunidad de resultados donde más de 157,000 estudiantes ya obtuvieron su certificado electrónico, validando su esfuerzo y abriendo nuevas puertas. <br>
+                                Regístrate en <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
+                                #Convocatorias2026PLSEP #MetasQueSeCumplen <br>
+                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -176,8 +179,10 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyd">🌎 Tu historia, tus raíces y tu voz también forman parte del cambio.<br> Del 21 al 30 de septiembre, únete a la comunidad y enriquécete de cada espacio con diversidad, cultura y nuevas perspectivas. 💻<br>                                    
-                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
+                            <li><span id="copyd">Alcanza tu meta con el respaldo de un modelo educativo que da resultados. Más de 157,000 personas ya tienen su certificado electrónico y hoy transforman su futuro. 🎓📜<br>
+                                Regístrate del 19 al 28 de octubre 👇<br>
+                                <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
+                                #Convocatorias2026PLSEP #MetasQueSeCumplen <br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle mb-3" onclick="conteo_recurso(38)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>
@@ -185,10 +190,11 @@
                                 </a>
                             </li>
 
-                            <li><span id="copyt">⏰ La diversidad sigue creciendo, y tu historia también puede ser parte de ella.<br>
-                                    Del 21 al 30 de septiembre, súmate a una comunidad donde 6,143 voces orgullosamente indígenas enriquecen cada experiencia con cultura, identidad y conocimiento. 🌎💻<br>
-                                En Prepa en Línea-SEP cada voz cuenta. <br>
-                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
+                            <li><span id="copyt">¡Tu meta de bachillerato empieza aquí! 🎓✨<br>
+                                Escribe tu historia de éxito en Prepa en Línea-SEP y asegura un certificado con reconocimiento nacional que te abrirá las puertas al mundo laboral o universitario. 🚀<br>
+                                Regístrate del del 19 al 28 de octubre 👇 <br>
+                                <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
+                                #Convocatorias2026PLSEP #PrepaEnLíneaSEP<br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle mb-3" onclick="conteo_recurso(39)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>

@@ -1,10 +1,11 @@
 <?php
-/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo93prox") {
+
+    if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo94prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit; 
-} */
+} 
 ?>
 <!doctype html>
 <html lang="es">
@@ -128,7 +129,7 @@
                     <a href="kit-94/PL-SEP_Convo2026-G94-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/estudio-mas-trabajo-igual-a-mejores-oportunidades-convocatoria-para-la-generacion-93/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/generacion-94-metas-que-se-inspiran-suenos-que-se-cumplen/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-94/PL-SEP_Convo2026-G94-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>

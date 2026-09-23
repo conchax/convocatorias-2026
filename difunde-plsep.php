@@ -172,7 +172,6 @@
                                 Únete a una comunidad de resultados donde más de 157,000 estudiantes ya obtuvieron su certificado electrónico, validando su esfuerzo y abriendo nuevas puertas. <br>
                                 Regístrate en <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
                                 #Convocatorias2026PLSEP #MetasQueSeCumplen <br>
-                                #Convocatorias2026PLSEP #DiversidadQueEnriquece<br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
                                         <use xlink:href="./assets/img/sprite.svg#icono-copy"></use>

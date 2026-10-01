@@ -1,11 +1,11 @@
 <?php
 
-    if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo94prox") {
+/*     if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo94prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
-    exit; 
-} 
+    exit;  
+} */
 ?>
 <!doctype html>
 <html lang="es">
@@ -13,7 +13,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
+    <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/plsep25/img/favicon.png">
 
     <!-- ... otros elementos ... -->
     <link rel="preload" as="image" href="assets/img/tour/guia-interactiva_start.gif">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-lg-3 text-center mb-3">
+                <div class="col-lg-3 text-center mb-3 d-none">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
                 </div>
             </div>
@@ -94,7 +94,7 @@
         </div>
     </section>
 
-    <section class="recursopausa d-none">
+    <section class="recursopausa ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section class="recursos">
+    <section class="recursos d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
@@ -650,7 +650,7 @@
     </script>
 
     <!-- tour    -->
-    <script>
+    <!-- <script>
         const driver = window.driver.js.driver;
 
         const driverObj = driver({
@@ -817,7 +817,7 @@
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
         });
-    </script>
+    </script> -->
 </body>
 
 </html>

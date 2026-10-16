@@ -1,11 +1,11 @@
 <?php
 
-/*     if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo94prox") {
+    if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo1prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;  
-} */
+}
 ?>
 <!doctype html>
 <html lang="es">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-lg-3 text-center mb-3 d-none">
+                <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
                 </div>
             </div>
@@ -83,22 +83,22 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 94</p>
+                    <p class="tex-convo"> Generación 1</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de registro del <b>19  al 28 de octubre</b></p>
+                    <p class="tex-date highlight">Periodo de inscripción del <b>19  al 28 de octubre</b></p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="recursopausa ">
+    <section class="recursopausa d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 94 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 1 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
                         Próximamente
                     </div>
@@ -107,42 +107,42 @@
         </div>
     </section>
 
-    <section class="recursos d-none">
+    <section class="recursos">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Bases.pdf" class="btn btn-difunde uno" onclick="conteo_recurso(26)" download>Bases</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/guia_aspirante_g94.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía para aspirantes</a>
+                    <a href="kit-1/guia_inscripcion_g1.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía de inscripción</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Mail.png" class="btn btn-difunde cinco" onclick="conteo_recurso(30)" download>Mail</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Banners.zip" class="btn btn-difunde seis" onclick="conteo_recurso(31)" download>Banner para portal</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://prepaenlinea.sep.gob.mx/generacion-94-metas-que-se-inspiran-suenos-que-se-cumplen/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
+                    <a href="https://prepaenlinea.sep.gob.mx/generacion-1-metas-que-se-inspiran-suenos-que-se-cumplen/" target="_blank" class="btn btn-difunde siete" onclick="conteo_recurso(32)" target="_blank">Boletín</a>
                 </div>
-                <div class="col-md-4 mb-3">
+                <!-- <div class="col-md-4 mb-3">
                     <a href="kit-94/PL-SEP_Convo2026-G94-Brochure.pdf" class="btn btn-difunde ocho" onclick="conteo_recurso(33)" download>Brochure PL-SEP</a>
-                </div>
+                </div> -->
                 <div class="col-md-4 mb-3">
-                    <a href="kit-94/PL-SEP_Convo2026-G94-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
+                    <a href="kit-1/PL-SEP_Convo2026-G1-Recursos.zip" class="btn btn-difunde btn-difundet nueve" onclick="conteo_recurso(34)" download>Descargar todo</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="rec r-uno text-center mb-3">
                         <p><b>Video spot</b></p>
-                        <p id="videospot">https://youtu.be/VAfExV67zo4</p>
+                        <p id="videospot">https://youtu.be/3WoSGPnWlXc</p>
                         <p>
                             <a type="button" class="btn-detalle" id="buttonVideospot" onclick="conteo_recurso(35)">
                                 <svg width="22" height="18" class="me-2">
@@ -168,9 +168,9 @@
                         <p><b>Copy sugerido</b></p>
                         <ol class="txt-copis fs-6">
 
-                            <li><span id="copy">La meta de terminar tu bachillerato está a tu alcance. 💻🎯<br>  
-                                Únete a una comunidad de resultados donde más de 157,000 estudiantes ya obtuvieron su certificado electrónico, validando su esfuerzo y abriendo nuevas puertas. <br>
-                                Regístrate en <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
+                            <li><span id="copy">🎓✨ La meta de terminar tu bachillerato está a tu alcance. 💻🎯<br>  
+                                Únete a una comunidad de resultados donde más de 157,000 estudiantes ya obtuvieron su certificado electrónico, validando su esfuerzo y abriendo nuevas puertas.<br>
+                                Inscríbete en <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
                                 #Convocatorias2026PLSEP #MetasQueSeCumplen <br>
                                 <a type="button" id="buttoncopy" class="btn-detalle mb-3" onclick="conteo_recurso(37)">
                                     <svg width="22" height="18" class="me-2">
@@ -180,7 +180,7 @@
                             </li>
 
                             <li><span id="copyd">Alcanza tu meta con el respaldo de un modelo educativo que da resultados. Más de 157,000 personas ya tienen su certificado electrónico y hoy transforman su futuro. 🎓📜<br>
-                                Regístrate del 19 al 28 de octubre 👇<br>
+                                Inscríbete del 19 al 28 de octubre 👇<br>
                                 <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
                                 #Convocatorias2026PLSEP #MetasQueSeCumplen <br>
                                 <a type="button" id="buttoncopyd" class="btn-detalle mb-3" onclick="conteo_recurso(38)">
@@ -192,7 +192,7 @@
 
                             <li><span id="copyt">¡Tu meta de bachillerato empieza aquí! 🎓✨<br>
                                 Escribe tu historia de éxito en Prepa en Línea-SEP y asegura un certificado con reconocimiento nacional que te abrirá las puertas al mundo laboral o universitario. 🚀<br>
-                                Regístrate del del 19 al 28 de octubre 👇 <br>
+                                Inscríbete del del 19 al 28 de octubre 👇 <br>
                                 <a href="https://registro.prepaenlinea.sep.gob.mx/" target="_blank">https://registro.prepaenlinea.sep.gob.mx/</a><br>
                                 #Convocatorias2026PLSEP #PrepaEnLíneaSEP<br>
                                 <a type="button" id="buttoncopyt" class="btn-detalle mb-3" onclick="conteo_recurso(39)">
@@ -650,7 +650,7 @@
     </script>
 
     <!-- tour    -->
-    <!-- <script>
+    <script>
         const driver = window.driver.js.driver;
 
         const driverObj = driver({
@@ -673,7 +673,7 @@
                 {
                     element: '.highlight',
                     popover: {
-                        description: 'Fecha del periodo de registro de la convocatoria actual.',
+                        description: 'Fecha del periodo de inscripción de la convocatoria actual.',
                         side: "bottom",
                         align: 'end'
                     }
@@ -699,8 +699,8 @@
                 {
                     element: '.recursos .tres',
                     popover: {
-                        title: 'Guía del aspirante',
-                        description: 'Material informativo para orientar a quienes desean registrarse.',
+                        title: 'Guía de inscripción',
+                        description: 'Material informativo para orientar a quienes desean inscribirse.',
                         side: "left",
                         align: 'start'
                     }
@@ -741,7 +741,7 @@
                         align: 'start'
                     }
                 },
-                {
+                /* {
                     element: '.recursos .ocho',
                     popover: {
                         title: 'Brochure  PL-SEP',
@@ -749,7 +749,7 @@
                         side: "top",
                         align: 'start'
                     }
-                },
+                }, */
                 {
                     element: '.recursos .nueve',
                     popover: {
@@ -817,7 +817,7 @@
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
         });
-    </script> -->
+    </script>
 </body>
 
 </html>

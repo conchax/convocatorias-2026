@@ -1,11 +1,11 @@
 <?php
-/* 
-    if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo1prox") {
+
+    /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo1prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;  
-} */
+    } */
 ?>
 <!doctype html>
 <html lang="es">
@@ -70,7 +70,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt- d-none">
                 <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
                 </div>
@@ -83,22 +83,22 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 1</p>
+                    <p class="tex-convo"> Generación 2</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de inscripción del <b>19  al 28 de octubre</b></p>
+                    <p class="tex-date highlight">Periodo de inscripción del <b>16  al 25 de noviembre</b></p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="recursopausa d-none">
+    <section class="recursopausa ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 1 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 2 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
                         Próximamente
                     </div>
@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section class="recursos">
+    <section class="recursos d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
@@ -651,8 +651,7 @@
 
     <!-- tour    -->
     <script>
-        const driver = window.driver.js.driver;
-
+        /* const driver = window.driver.js.driver;
         const driverObj = driver({
             showButtons: ['next', 'previous', 'close'],
             nextBtnText: '<img src="assets/img/tour/next.png"/>',
@@ -741,7 +740,7 @@
                         align: 'start'
                     }
                 },
-                /* {
+                 {
                     element: '.recursos .ocho',
                     popover: {
                         title: 'Brochure  PL-SEP',
@@ -749,7 +748,7 @@
                         side: "top",
                         align: 'start'
                     }
-                }, */
+                },
                 {
                     element: '.recursos .nueve',
                     popover: {
@@ -789,6 +788,7 @@
                 {
                     element: '.l-one',
                     popover: {
+                        title: 'Regístrate como institución aliada',
                         description: 'Regístrate como institución aliada y recibe información clave para difundir correctamente la convocatoria.',
                         side: "top",
                         align: 'start'
@@ -813,10 +813,9 @@
         });
 
         driverObj.drive();
-
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
-        });
+        }); */
     </script>
 </body>
 

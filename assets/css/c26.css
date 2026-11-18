@@ -167,8 +167,8 @@ b{
     border: 2px solid var(--color-primary)!important;
 }
 .cta{
+    margin-bottom: 40px;
     padding: 40px 0;
-    margin: 40px 0;
     background: linear-gradient(-45deg, #f5f5f5,#dddddd, #dee2d3);
 	background-size: 400% 400%;
 	animation: gradientBG 8s ease infinite;
@@ -556,6 +556,14 @@ iframe.short {
   background-color: var(--bg-fondo);
   border-radius: 10px;
   z-index: -1;
+}
+
+.cinta{    
+    margin-top: 40px;
+    background-color: var(--color-primary);
+    color: var(--color-text-secu);
+    padding: 10px 0;
+    text-align: center;
 }
 @keyframes rotation {
   0% {

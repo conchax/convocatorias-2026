@@ -1,6 +1,5 @@
 <?php
-
-    /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo1prox") {
+    /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo2prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
@@ -70,6 +69,8 @@
                     </p>
                 </div>
             </div>
+        </div>        
+        <div class="container">
             <div class="row justify-content-center mt-4">
                 <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
@@ -77,8 +78,14 @@
             </div>
         </div>
     </section>
-
+    <div class="container-fluid cinta">
+        <div class="row">
+            <div class="co-12">La convocatoria podría cerrar antes en caso de alcanzar los <b>30,000 estudiantes</b> inscritos. </div>
+        </div>
+    </div>
+    
     <section class="cta">
+        
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
@@ -116,7 +123,7 @@
                     <a href="kit-2/PL-SEP_Convo2026-G2-Infografia.png" class="btn btn-difunde dos" onclick="conteo_recurso(27)" download>Infografía</a>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="kit-2/PL-SEP_Convo2026-G2-Guia_inscripcion.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía de inscripción</a>
+                    <a href="kit-2/guia_inscripcion_g2.pdf" class="btn btn-difunde tres" onclick="conteo_recurso(28)" download>Guía de inscripción</a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a href="kit-2/PL-SEP_Convo2026-G2-Cartel.zip" class="btn btn-difunde cuatro" onclick="conteo_recurso(29)" download>Cartel</a>

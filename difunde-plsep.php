@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>        
-        <div class="container">
+        <div class="container d-none">
             <div class="row justify-content-center mt-4">
                 <div class="col-lg-3 text-center mb-3">
                     <button id="start-tour-btn" class="btn btn-recursos">Ver guía interactiva</button>
@@ -78,10 +78,12 @@
             </div>
         </div>
     </section>
-    <div class="container-fluid cinta">
-        <div class="row">
-            <div class="co-12">La convocatoria podría cerrar antes en caso de alcanzar los <b>30,000 estudiantes</b> inscritos. </div>
-        </div>
+    <div class="cinta">
+        <div class="container">
+            <div class="row">
+                <div class="co-12">La convocatoria podría cerrar antes en caso de alcanzar los <b>30,000 estudiantes</b> inscritos. </div>
+            </div>
+        </div>        
     </div>
     
     <section class="cta">
@@ -90,21 +92,21 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h3>Difusión</h3>
-                    <p class="tex-convo"> Generación 2</p>
+                    <p class="tex-convo"> Generación 3</p>
                     <hr class="line my-5" />
                 </div>
                 <div class="col-12 text-center">
-                    <p class="tex-date highlight">Periodo de inscripción del <b>16  al 25 de noviembre</b></p>
+                    <p class="tex-date highlight">Periodo de inscripción del <b>8  al 17 de febrero 2027</b></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="recursopausa d-none">
+    <section class="recursopausa">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 2 de Prepa en Línea-SEP.</p>
+                    <p class="text-center">Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 3 de Prepa en Línea-SEP.</p>
                     <div class="element my-5">
                         Próximamente
                     </div>
@@ -113,7 +115,7 @@
         </div>
     </section>
 
-    <section class="recursos">
+    <section class="recursos d-none">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
@@ -658,7 +660,7 @@
 
     <!-- tour    -->
     <script>
-        const driver = window.driver.js.driver;
+        /* const driver = window.driver.js.driver;
         const driverObj = driver({
             showButtons: ['next', 'previous', 'close'],
             nextBtnText: '<img src="assets/img/tour/next.png"/>',
@@ -747,7 +749,7 @@
                         align: 'start'
                     }
                 },
-                 /* {
+                 {
                     element: '.recursos .ocho',
                     popover: {
                         title: 'Brochure  PL-SEP',
@@ -755,7 +757,7 @@
                         side: "top",
                         align: 'start'
                     }
-                }, */
+                },
                 {
                     element: '.recursos .nueve',
                     popover: {
@@ -822,7 +824,7 @@
         driverObj.drive();
         document.getElementById('start-tour-btn').addEventListener('click', () => {
             driverObj.drive();
-        }); 
+        });  */
     </script>
 </body>
 
